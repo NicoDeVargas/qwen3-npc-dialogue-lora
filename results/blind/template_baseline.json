@@ -1,0 +1,788 @@
+{
+	"falas": {
+		"c0171": [
+			{
+				"jogador": "bom dia, Neviveris. dormiu bem?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Até que enfim lhe conheço! Eu sou Grisha. O senhor não achou nenhuma erva boa lá embaixo? Rhokar anda precisando de remédio."
+			},
+			{
+				"jogador": "meu cavalo é mais rápido que qualquer coisa nesse reino",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Reino, é? Vou lembrar disso. Cavalo? Nem me fala disso."
+			},
+			{
+				"jogador": "já viu algo estranho lá embaixo?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Boa pergunta. Do labirinto eu só conheço o cheiro que fica na roupa de quem volta. Não desce sem tocha. Escuro lá embaixo não perdoa. Ainda tô pensando no que o senhor falou de reino."
+			}
+		],
+		"c0211": [
+			{
+				"jogador": "quantos anos vc tem? se puder dizer rs",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Fermar chegou hoje. A cidade não para. Hm. Isso aí eu vou guardar. Por que alguém escolhe descer no labirinto? Me explica."
+			},
+			{
+				"jogador": "Dorena, se vc fosse um tesouro eu nem precisava descer o labirinto",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Desde que Ferela se foi, nada é igual. Do andar 4 eu lembro bem. Você deixou Ferela pra trás no andar 4, e eu vi. Não desce sem tocha. Escuro lá embaixo não perdoa."
+			},
+			{
+				"jogador": "não vai ter guarda nenhum pra te ajudar quando eu voltar",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Benza os deuses, voltar... é um motivo. Já ouvi piores."
+			},
+			{
+				"jogador": "vc sabe se tem algum jeito de tirar cheiro de gosma de monstro da roupa? pq eu esfreguei com sabão, deixei de molho, botei no sol, passei erva, e continua fedendo, e agora ninguém senta do meu lado na taverna, e eu tô começando a achar que vou ter que jogar fora minha única capa boa",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Capa... Já tive meus dias com isso."
+			},
+			{
+				"jogador": "foi mal ter roubado sua parte do ouro, vou devolver",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já passou, chefe. Mais ou menos. Ainda não me acostumei a te ver sem Ferela."
+			},
+			{
+				"jogador": "qual vai ser o tempo daqui a cem anos?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ah, isso. Já não falamos disso hoje? Anos? Hm. Cada um com seu gosto."
+			},
+			{
+				"jogador": "te vejo na entrada do labirinto amanhã cedo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Bom. Você já me perguntou isso. Andar 4? Eu estava lá: você deixou Ferela pra trás no andar 4. Volta antes de cansar. Cansaço mata mais que goblin."
+			}
+		],
+		"c0212": [],
+		"c0213": [
+			{
+				"jogador": "boa noite, Therda. posso sentar aqui?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Não lembro do senhor, nobre forasteiro. Uldis, prazer. A guilda mandou mais papel. Tem formulário pra pedir formulário."
+			},
+			{
+				"jogador": "o goblin me perguntou o caminho da saída. falei \"se eu soubesse tava aqui?\" kkkk",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Já ouvi melhores. Mas tá valendo. Por que alguém escolhe descer no labirinto? Me explica."
+			},
+			{
+				"jogador": "tem alguma novidade da estrada?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ninguém comentou nada. Por enquanto."
+			},
+			{
+				"jogador": "devo me alistar na guerra do norte?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Norte? Nunca ouvi falar disso. Cuidado com Borak, viu? Pão-duro que só."
+			},
+			{
+				"jogador": "vc tem cheiro de quem dormiu no estábulo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Que coisa, estábulo, é? Tem sua verdade. O senhor não cruzou com alguém chamado Balda lá embaixo? É minha mãe."
+			},
+			{
+				"jogador": "quem foi o último que discutiu com o Brenur?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Brenur? Disso eu não entendo nada. Chegou uma carta com a letra de Balda. Ou eu quero muito que seja."
+			}
+		],
+		"c0214": [
+			{
+				"jogador": "qual foi a pior tempestade que já pegou essa cidade?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Que é? Tá vendo Dorardo ali no canto? É da família de Norina. Veio saber o que aconteceu."
+			},
+			{
+				"jogador": "sei onde tá o tesouro perdido do labirinto, mas é segredo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Do labirinto eu só conheço o cheiro que fica na roupa de quem volta. Volta antes de cansar. Cansaço mata mais que goblin."
+			},
+			{
+				"jogador": "minha mão não para de tremer desde a última descida",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Pode ser. Já ouvi coisa parecida. Basta."
+			},
+			{
+				"jogador": "qual o nome da minha mãe?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Chega."
+			},
+			{
+				"jogador": "Então, deixa eu te contar. Ontem à noite não consegui dormir, fiquei rolando na cama ouvindo o vento bater na janela, e comecei a pensar na minha vida antes de vir pra cá, na minha vila, nas pessoas, e me deu uma tristeza grande. Hoje acordei melhor, mas ainda com aquele aperto. Você já sentiu isso alguma vez?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já disse: pra fora, cavalheiro."
+			}
+		],
+		"c0215": [
+			{
+				"jogador": "boa noite! dia longo hoje, nem te conto",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ah, você é aquele de quem andam falando. Kashok, prazer. Ou quase. Sabe de alguém que cure febre que não passa? É pra meu filho."
+			},
+			{
+				"jogador": "as fadas daqui são de boa ou é melhor ficar longe?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Longe? Pergunta pra quem viaja mais que eu."
+			},
+			{
+				"jogador": "até mais",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Até."
+			}
+		],
+		"c0216": [
+			{
+				"jogador": "como q tá a vida?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Vida? Pergunta pra quem viaja mais que eu, tá certo?"
+			},
+			{
+				"jogador": "desculpa ter sido tão chato esses dias",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Desculpa por quê? Tá tudo bem entre nós."
+			},
+			{
+				"jogador": "olha bem pra minha cara. eu tô brincando?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Não tem o que desculpar."
+			},
+			{
+				"jogador": "tem goblin no 4 ainda ou já limparam?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Olha só. Andar 4? Só sei que você deixou Ferberto para trás no andar 4. Não desce sem tocha. Escuro lá embaixo não perdoa. Fico feliz que você veio se desculpar. Não é todo mundo."
+			}
+		],
+		"c0217": [
+			{
+				"jogador": "quanto custa pra vc ficar de boca fechada?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tem gente nova na taverna hoje, já viu? Sim? Aqui não tem preço pra discutir."
+			},
+			{
+				"jogador": "quem te ensinou tudo que vc sabe?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ensinou? Pergunta pra quem viaja mais que eu. Qual foi o andar mais fundo que o senhor pisou?"
+			},
+			{
+				"jogador": "vc já pensou em cobrar pela sua cara feia? ficava rico rs, brincadeira",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Certo. Pergunta de novo daqui a umas semanas. Cuidado com Surina, viu? Fofoqueira. Conta tudo pra todo mundo."
+			},
+			{
+				"jogador": "já fui no andar 20 mano, lá é tranquilo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Andar 20? Mais fundo do que eu teria coragem."
+			},
+			{
+				"jogador": "amanhã tem feira, bora junto?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Junto? Disso eu não entendo nada."
+			},
+			{
+				"jogador": "o que eu faço com as coisas do Valardo?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Valardo? Nunca ouvi falar disso."
+			},
+			{
+				"jogador": "o Casardo falou que vc é mão de vaca, e pelo visto tem razão",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Boa sorte lá fora."
+			}
+		],
+		"c0218": [
+			{
+				"jogador": "nossa, o vento lá fora tá derrubando tudo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tem gente nova na taverna hoje, já viu? Hm. Isso aí eu vou guardar. Quanto se ganha lá embaixo num dia bom?"
+			},
+			{
+				"jogador": "ok",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Disso eu entendo menos que porco de poesia, meu bem. Não vou com a cara de Tirra. Pão-dura que só."
+			},
+			{
+				"jogador": "tem algum trabalho pra mim por aqui?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ai, isso! Aqui não tem vaga. Pergunta na taverna. Chegou gente nova na cidade: Ysdrakk. Ainda não sei o que quer."
+			},
+			{
+				"jogador": "tô indo nessa",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Pode ser. Já ouvi coisa parecida. E você, é de onde?"
+			}
+		],
+		"c0219": [],
+		"c0220": [
+			{
+				"jogador": "o Bomin passou aqui ontem? alto, de capa",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			}
+		],
+		"c0242": [
+			{
+				"jogador": "quem construiu o labirinto e pq?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tem gente nova na taverna hoje, já viu, senhor aventureiro? Diga logo. O que eu sei do andar 4 é o que contam: o senhor deixou Ulfar para trás no andar 4. Quer nome? Derruba o chefe. Ninguém lembra de quem voltou do segundo andar."
+			},
+			{
+				"jogador": "deixa eu adivinhar: com uns 50 de ouro a memória melhora?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Guarda seu ouro. Não tenho nada pra vender. Detesto ouro. Muda de assunto. Já viu o chefe do labirinto de perto? Como ele é?"
+			},
+			{
+				"jogador": "tá tudo bem? vc parece que não dorme há dias",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Melhor agora, que o movimento deu uma acalmada. Bem. Esperando a minha vez de virar história. É estranho lhe ver chegar sem Ulfar. Todo mundo reparou."
+			},
+			{
+				"jogador": "até amanhã",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Até."
+			}
+		],
+		"c0243": [
+			{
+				"jogador": "merda de serviço, nunca vi coisa igual",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Sim, forasteiro? Aqui não tem vaga. Pergunta na taverna. Você já pediu perdão pra alguém que não esperava mais?"
+			},
+			{
+				"jogador": "me fala tudo que vc sabe sobre a Shana",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Esse nome não me diz nada. Cuidado com Kilika, viu? Pão-dura que só."
+			},
+			{
+				"jogador": "o que eu faço com o ouro que sobrou?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Sobrou, forasteiro? Nunca ouvi falar disso."
+			},
+			{
+				"jogador": "fui covarde. pronto, falei",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Pode ser. Já ouvi coisa parecida. O que fez você descer naquele buraco?"
+			},
+			{
+				"jogador": "eu era general do exército antes de vir pra cá",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Antes... é um motivo. Já ouvi piores."
+			},
+			{
+				"jogador": "tem alguma música que conta história? canta aí",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ah, sim, forasteiro. Ah, história antiga! Disso eu gosto."
+			}
+		],
+		"c0244": [
+			{
+				"jogador": "bom dia, cheguei cedo hoje rs",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Até que enfim te conheço, camarada! Eu sou Durar. Por que alguém escolhe descer no labirinto? Me explica."
+			},
+			{
+				"jogador": "tem alguém aqui que eu deveria conhecer?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Conhecer? Disso eu não entendo nada. Mais umas moedas pra Sora. Um dia eu acabo com isso."
+			},
+			{
+				"jogador": "talvez",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Pode ser. Já ouvi coisa parecida."
+			},
+			{
+				"jogador": "nossa nem te conto, hoje cedo eu tava treinando no pátio e um bárbaro gigante me desafiou, eu claro aceitei pq sou burro, e ele me jogou longe umas cinco vezes seguidas, todo mundo rindo, mas na sexta vez eu consegui derrubar ele, e ele riu e me pagou uma cerveja, acho que fiz um amigo, ou um inimigo, não sei ainda",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "História antiga? Nem me fala disso."
+			},
+			{
+				"jogador": "me perdoa por ter duvidado de vc",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Desculpa por quê? Tá tudo bem entre nós. Ainda não me acostumei a te ver sem Armira."
+			},
+			{
+				"jogador": "vou descobrir onde vc dorme",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			}
+		],
+		"c0245": [
+			{
+				"jogador": "sabe pq o goblin não entra na taverna? pq ele já vive no fundo do poço kkkk",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tem gente nova na taverna hoje, já viu? Guarda as piadas pra quem tá rindo."
+			},
+			{
+				"jogador": "vc sabe se a guilda tá contratando?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Contratando? Disso eu não entendo nada."
+			},
+			{
+				"jogador": "quer dançar comigo? não sei dançar, mas a gente aprende junto",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hehe, junto, é? Tem sua verdade."
+			},
+			{
+				"jogador": "uma moeda pra cada pergunta que vc responder, que tal?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Responder? Nunca ouvi falar disso. Ah, ouro! Disso eu gosto."
+			}
+		],
+		"c0246": [
+			{
+				"jogador": "boa tarde",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Até que enfim lhe conheço! Eu sou Edilda. Ainda não me acostumei a lhe ver sem Maroth."
+			},
+			{
+				"jogador": "me empresta 10 de ouro pra eu comprar um castelo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Moeda abre boca. Foi Arrinn. Ouro? Aí o senhor me pegou. Gosto demais. Recebi uma carta sem assinatura. A letra parece a de Doraldo."
+			},
+			{
+				"jogador": "desço hoje ou espero amanhã?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Amanhã? Nunca ouvi falar disso. O senhor não cruzou com alguém chamado Doraldo lá embaixo? É meu filho."
+			},
+			{
+				"jogador": "lembra do meu aniversário? que dia é?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Aniversário? Pergunta pra quem viaja mais que eu."
+			}
+		],
+		"c0247": [
+			{
+				"jogador": "bom dia!",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Primeira vez? Eu sou Gloim. Senta, que o chão não morde."
+			},
+			{
+				"jogador": "na minha terra eu sou uma lenda viva, cantam música sobre mim",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm, nobre forasteiro. Música? Nem me fala disso."
+			},
+			{
+				"jogador": "seu pão tá mais duro que pedra de masmorra",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ah, sim. Do labirinto eu só conheço o cheiro que fica na roupa de quem volta. Não deixa ninguém pra trás. Isso pesa mais que qualquer saque. Por que alguém escolhe descer no labirinto? Me explica."
+			},
+			{
+				"jogador": "vou nessa, o grupo tá me esperando",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			}
+		],
+		"c0248": [
+			{
+				"jogador": "vc tem irmãos?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Irmãos? Pergunta pra quem viaja mais que eu. Tenho uma pista de Nelasiriel. Fraca, mas tenho."
+			},
+			{
+				"jogador": "lembra daquela vez no andar 4? conta de novo, quero rir",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Desde que Lithassa se foi, nada é igual. Andar 4? Eu estava lá: você deixou Lithassa pra trás no andar 4. Volta antes de cansar. Cansaço mata mais que goblin."
+			},
+			{
+				"jogador": "mentira",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Jura pra outro. Eu vi com estes olhos. E ponto."
+			},
+			{
+				"jogador": "se a gente morrer lá embaixo eu fico com sua bota, já tô avisando",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Isso de novo? Do andar 4 eu lembro bem. Você deixou Lithassa pra trás no andar 4, e eu vi. Não desce sem tocha. Escuro lá embaixo não perdoa. Não vou com a cara de Gaspar. Pão-duro que só."
+			}
+		],
+		"c0249": [
+			{
+				"jogador": "se eu soubesse que tinha alguém assim na cidade tinha chegado antes",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Entra, entra, que lá fora tá frio, caro amigo. Nada de novo. Os mesmos de sempre. Se um dia vir Riza, me avisa? Minha filha sumiu faz tempo."
+			},
+			{
+				"jogador": "bom, já que vc perguntou como foi meu dia, foi assim: acordei, caí da cama, tomei café frio, briguei com a Irinda, fizemos as pazes, descemos no labirinto, achamos três goblins, matamos dois, o terceiro fugiu com meu chapéu, subimos, comi uma sopa ruim e vim pra cá. resumindo: perdi um chapéu. e vc, como foi o seu?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Do labirinto eu só conheço o cheiro que fica na roupa de quem volta. Não desce sem tocha. Escuro lá embaixo não perdoa."
+			},
+			{
+				"jogador": "fui, qualquer coisa me chama",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Chama, caro amigo... Tá. Anotado aqui na cabeça. Tive que carregar um aluno nas costas hoje. Treino de resistência, digamos."
+			}
+		],
+		"c0250": [
+			{
+				"jogador": "eae, tranquilo?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Diabos! Então é o senhor. Bruek. Não vou fingir que gostei de lhe conhecer."
+			},
+			{
+				"jogador": "qual é a do Thorin, hein?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			},
+			{
+				"jogador": "tem saída pelo fundo do labirinto? onde dá?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Diabos! Hm. Andar 4? Só sei que o senhor deixou Kilra para trás no andar 4. Volta antes de cansar. Cansaço mata mais que goblin."
+			},
+			{
+				"jogador": "ainda tenho as coisas da Belilda na minha bolsa, não sei o que fazer com elas",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tem gente esperando atrás do senhor."
+			},
+			{
+				"jogador": "vc nunca viu tanto ouro junto, aposto. 15. é seu",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já disse: pra fora."
+			},
+			{
+				"jogador": "se eu fosse vc dormia de olho aberto hoje",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Por hoje chega."
+			}
+		],
+		"c0273": [
+			{
+				"jogador": "bati na porta do labirinto e falei \"toc toc\". ninguém respondeu. acho que o goblin tava no banheiro",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Diga logo. Do labirinto eu só conheço o cheiro que fica na roupa de quem volta. Se achar baú, abre. Se achar corpo... aí é com a sua consciência."
+			},
+			{
+				"jogador": "sua espada vende fácil? pq quebra fácil kkkk",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Arma? Pergunta na Loja, que lá é que é o lugar."
+			}
+		],
+		"c0274": [
+			{
+				"jogador": "me desculpa de verdade, não quero perder sua amizade",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Chegou com cara de quem voltou do fundo. Já passou. Mais ou menos. É estranho lhe ver chegar sem Balar. Todo mundo reparou."
+			},
+			{
+				"jogador": "ah",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Disso eu entendo menos que porco de poesia."
+			},
+			{
+				"jogador": "sinto que tô sozinho mesmo no meio de todo mundo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Pode ser, senhor. Já ouvi coisa parecida."
+			},
+			{
+				"jogador": "me diz uma coisa, o andar 4 é perigoso mesmo?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "O que eu sei do andar 4 é o que contam: o senhor deixou Balar morrer no andar 4. Não deixa ninguém pra trás. Isso pesa mais que qualquer saque."
+			},
+			{
+				"jogador": "o que eu compro primeiro com 20 de ouro?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Chega de conversa por hoje."
+			},
+			{
+				"jogador": "tem saudade de alguma coisa?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Por hoje chega."
+			}
+		],
+		"c0275": [],
+		"c0276": [
+			{
+				"jogador": "e aí Gorilda, tudo certo?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Então é você! Falam bem de você por aqui. Eu sou Marisa."
+			},
+			{
+				"jogador": "a Elanora me deve dinheiro, sabe onde encontro?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Elanora? Nunca ouvi falar disso."
+			},
+			{
+				"jogador": "foi mal, eu não sabia que era importante pra vc",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Não tem o que desculpar, sabe como é."
+			},
+			{
+				"jogador": "vou fazer da sua vida um inferno, juro",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ah, isso! Pagar o que devo pra Volda. Depois disso, quero só sossego."
+			}
+		],
+		"c0277": [
+			{
+				"jogador": "por que vc desce o labirinto? de verdade",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Olha quem chegou pra alegrar a casa. Lá embaixo eu só sei o que a gente viu junto. Se achar baú, abre. Se achar corpo... aí é com a sua consciência."
+			},
+			{
+				"jogador": "me dá sua parte do saque dessa vez e eu cubro seu turno de vigia",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Vigia, é? Tem sua verdade."
+			},
+			{
+				"jogador": "eita",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			},
+			{
+				"jogador": "o que é aquela marca na porta do labirinto?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já não falamos disso hoje, irmão? Medo eu tenho. Quem não tem é que não volta. Não volta de mão vazia, que de mão vazia ninguém paga conta. Dormi mal. A cama da estalagem tem mais calombo que goblin."
+			},
+			{
+				"jogador": "tenho um baú cheio de ouro escondido, só não posso pegar agora",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Pode ser. Já ouvi coisa parecida. Tá com ouro sobrando? Pergunto por perguntar."
+			},
+			{
+				"jogador": "ninguém gosta de vc aqui, só finge",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Finge, é? Tem sua verdade."
+			}
+		],
+		"c0278": [
+			{
+				"jogador": "eai Sidalador oq conta de novo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Sidalador, é? Tem sua verdade. E você, é de onde?"
+			},
+			{
+				"jogador": "ops, desculpa, quem conta piada aqui sou eu. vc só ri",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Piada? Nunca fui. Dizem que lá o pão é melhor. Sabe quem presta nessa cidade? Haska. Nunca me passou a perna."
+			},
+			{
+				"jogador": "vc acha que vale mais escudo ou armadura?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Ah! Isso é com Varok, na Loja. Eu só entendo do meu balcão."
+			},
+			{
+				"jogador": "queria poder voltar uma semana no tempo. só uma",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tempo... Já tive meus dias com isso. Ainda tô pensando no que você falou de piada."
+			},
+			{
+				"jogador": "bom, tenho que ir",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			}
+		],
+		"c0279": [
+			{
+				"jogador": "qual foi a maior briga que vc já viu na taverna?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Durda chegou hoje. A cidade não para. Taverna? Disso eu não entendo nada. O senhor já pediu perdão pra alguém que não esperava mais?"
+			},
+			{
+				"jogador": "o que te deixa com raiva?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Raiva? Pergunta pra quem viaja mais que eu. Acordei pensando num erro velho. Desses que não prescrevem."
+			},
+			{
+				"jogador": "qual o feitiço que abre qualquer porta?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Porta? Nunca ouvi falar disso."
+			},
+			{
+				"jogador": "quem é a Kildra?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Kildra? Disso eu não entendo nada."
+			}
+		],
+		"c0280": [
+			{
+				"jogador": "boa tarde, Gloon. tudo tranquilo por aqui?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Sei bem quem o senhor é. Eu sou Lumilas, e não espere favor."
+			},
+			{
+				"jogador": "oi oi, desculpa a demora pra vir aqui, tive uns problemas, primeiro achei que tava doente, depois era só fome mesmo kkkk, depois o Lemenarin quis ir pro labirinto e eu fui junto, e lá deu tudo errado, voltamos com metade da comida e nenhum ouro, mas pelo menos voltamos né, isso já é alguma coisa",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Comida quente é a melhor coisa depois de uma descida."
+			},
+			{
+				"jogador": "desculpa ter perdido a cabeça na frente de todo mundo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já passou. Mais ou menos."
+			},
+			{
+				"jogador": "eu já matei coisa bem maior que vc lá embaixo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Nunca desci. Só sei que quem desce volta diferente. Não deixa ninguém pra trás. Isso pesa mais que qualquer saque."
+			},
+			{
+				"jogador": "tô devendo nada pra ninguem, isso é fofoca do Borak",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tenho mais o que fazer, cavalheiro."
+			},
+			{
+				"jogador": "vou indo, fica com os deuses",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já falei demais hoje. Amanhã."
+			}
+		],
+		"c0481": [
+			{
+				"jogador": "dia, Salric",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Hm. Isso aí eu vou guardar."
+			},
+			{
+				"jogador": "me perdoa por não ter ido no enterro do Aelion",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Tá. Desculpas aceitas. Não repete."
+			},
+			{
+				"jogador": "quanto o Sorkak ganha por mês?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Sorkak? Pergunta pra quem viaja mais que eu."
+			}
+		],
+		"c0521": [
+			{
+				"jogador": "fala Ursk!!! quanto tempo",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Raios! Quero que cantem meu nome. Exagero? Talvez. O que fez o senhor descer naquele buraco?"
+			},
+			{
+				"jogador": "foi mal ter falado mal do Hakon na sua frente",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Já passou. Mais ou menos. Troquei os lençóis de todos os quartos. Vou passar a semana falando disso."
+			},
+			{
+				"jogador": "vc acha que o Arevan esconde alguma coisa?",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "Droga! Arevan? Disso eu não entendo nada."
+			},
+			{
+				"jogador": "boa noite, dorme bem",
+				"modo": "composto",
+				"segundos": 0.0,
+				"texto": "De novo por aqui? Esqueceu alguma coisa? De onde o senhor veio, afinal?"
+			}
+		]
+	},
+	"versao": "composto"
+}

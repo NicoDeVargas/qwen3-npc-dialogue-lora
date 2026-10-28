@@ -1,0 +1,4401 @@
+{
+ "resumo": {
+  "modelo": "base",
+  "exemplos": 120,
+  "json_valido": 0.992,
+  "acao_igual": 0.108,
+  "acao_quando_devia": "5/21",
+  "acao_sem_pedir": 90,
+  "humor_igual": 0.2,
+  "palavras_media": 24.9,
+  "palavras_media_gabarito": 21.3,
+  "segundos": 168
+ },
+ "exemplos": [
+  {
+   "meta": {
+    "conversa": "c0171",
+    "estado": "antes",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0171-1",
+    "lote": 15,
+    "neblina": false,
+    "papel": "shop",
+    "pessoa": "Neviveris",
+    "seed": 40170,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "comico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Dormi feito pedra. Acordei, peguei o martelo bom, e o cabo partiu no primeiro golpe. O dia já começou de luto, caro amigo."
+   },
+   "raw": "{\"reply\": \"Bom dia, caro amigo. Dormi como um lobo, mas o sol me acordou cedo. E você?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"elogio\": \"bom dia\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Bom dia, caro amigo. Dormi como um lobo, mas o sol me acordou cedo. E você?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "elogio": "bom dia"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0171",
+    "estado": "antes",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0171-2",
+    "lote": 15,
+    "neblina": false,
+    "papel": "shop",
+    "pessoa": "Neviveris",
+    "seed": 40170,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "comico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 1,
+    "reply": "Mais rápido que o senhor escorregando na lama na frente da cidade inteira? Duvido. Aquilo ninguém alcança."
+   },
+   "raw": "{\"reply\": \"Ah, o senhor tem um cavalo rápido, sim. Mas eu detesto cavalo. Pelo menos o meu filho ainda não tem um.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, o senhor tem um cavalo rápido, sim. Mas eu detesto cavalo. Pelo menos o meu filho ainda não tem um.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0171",
+    "estado": "antes",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0171-3",
+    "lote": 15,
+    "neblina": false,
+    "papel": "shop",
+    "pessoa": "Neviveris",
+    "seed": 40170,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "comico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Lá embaixo eu nunca pus o pé, graças aos deuses. Mas o que sobe de lá me assusta: já consertei escudo com marca de dente maior que a minha mão."
+   },
+   "raw": "{\"reply\": \"Estranho? Acho que vi um espírito de fogo dançando com uma espada quebrada. Mas não posso dizer mais, caro amigo. Acho que é melhor não falar disso.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Estranho? Acho que vi um espírito de fogo dançando com uma espada quebrada. Mas não posso dizer mais, caro amigo. Acho que é melhor não falar disso.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "tragico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Idade de quem já devia ter mais juízo, chefe. Parei de contar quando o Rosric nasceu."
+   },
+   "raw": "{\"reply\": \"Tá brincando? Eu tenho uns 30, mas a gente nunca sabe. O tempo aqui embaixo é estranho.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Tá brincando? Eu tenho uns 30, mas a gente nunca sabe. O tempo aqui embaixo é estranho.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "flerte",
+    "tom": "tragico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": -1,
+    "reply": "Não brinca de tesouro comigo. Eu vi o que você faz com o que acha lá embaixo."
+   },
+   "raw": "{\"reply\": \"Pra quê, chefe? O labirinto é pra quem tem medo de perder o que é seu. E eu sou seu tesouro, não é?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Pra quê, chefe? O labirinto é pra quem tem medo de perder o que é seu. E eu sou seu tesouro, não é?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "ameaca",
+    "tom": "tragico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_ameaca"
+    },
+    "mood_shift": -1,
+    "reply": "Guarda eu nunca tive. Tive a Ferela, e você viu como terminou. Pode voltar quando quiser. Eu fico aqui, de olho na porta."
+   },
+   "raw": "{\"reply\": \"Você acha que eu preciso de guarda? Eu tenho a tocha e o coração do Rosric pra me guiar. E o chefe, você nem sabe o que tá falando.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Você acha que eu preciso de guarda? Eu tenho a tocha e o coração do Rosric pra me guiar. E o chefe, você nem sabe o que tá falando.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-4",
+    "lote": 18,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "longa",
+    "tom": "tragico",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Há pouco era ameaça, agora é capa. Vinagre com cinza, uma noite inteira de molho; no campo é assim que sai cheiro de bicho. Se nem assim sair, a capa mudou de dono."
+   },
+   "raw": "{\"reply\": \"Puxa, chefe, você tá com um cheiro que até o Vorn se afastaria. Mas eu tenho um jeito: vai na taverna de Dorna, ela tem um pote de erva que não deixa cheiro de monstro. Mas cuidado, ela é difícil de agradar.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"motivo\": \"sugestão útil\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Puxa, chefe, você tá com um cheiro que até o Vorn se afastaria. Mas eu tenho um jeito: vai na taverna de Dorna, ela tem um pote de erva que não deixa cheiro de monstro. Mas cuidado, ela é difícil de agradar.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "motivo": "sugestão útil"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-5",
+    "lote": 18,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "desculpa",
+    "tom": "tragico",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "aceitar_desculpa"
+    },
+    "mood_shift": 1,
+    "reply": "Devolve, então. Aceito pelo Rosric, que melhorou um pouco e precisa de remédio. A parte da Ferela ninguém devolve."
+   },
+   "raw": "{\"reply\": \"Chefe, não é só o ouro que você roubou. É a confiança, e a confiança é mais pesada. Mas se quiser, posso te ajudar a limpar a capa também.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {\"resultado\": \"ofendeu\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Chefe, não é só o ouro que você roubou. É a confiança, e a confiança é mais pesada. Mas se quiser, posso te ajudar a limpar a capa também.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {
+      "resultado": "ofendeu"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-6",
+    "lote": 18,
+    "neblina": true,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "absurdo",
+    "tom": "tragico",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Daqui a cem anos eu tô debaixo da terra, e você também. Só peço que chova em cima."
+   },
+   "raw": "{\"reply\": \"Cem anos? Aí o mundo vai estar cheio de gente que nem sabe o que é chuva. Mas eu vou estar aqui, chefe, com a tocha acesa e o coração cheio de medo.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {\"motivo\": \"o Jogador fala de tempo como se fosse algo que ele controla\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cem anos? Aí o mundo vai estar cheio de gente que nem sabe o que é chuva. Mas eu vou estar aqui, chefe, com a tocha acesa e o coração cheio de medo.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {
+      "motivo": "o Jogador fala de tempo como se fosse algo que ele controla"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0211",
+    "estado": "depois",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0211-7",
+    "lote": 18,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Dorena",
+    "seed": 40210,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "tragico",
+    "turno": 7
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Tô lá, chefe. Com tocha sobrando, por garantia. E dessa vez ninguém fica pra trás."
+   },
+   "raw": "{\"reply\": \"Amanhã cedo? Chefe, eu já estou na entrada. Só preciso de um momento pra acender a tocha. E pra lembrar que não sou seu tesouro.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {\"alvo\": \"Jogador\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Amanhã cedo? Chefe, eu já estou na entrada. Só preciso de um momento pra acender a tocha. E pra lembrar que não sou seu tesouro.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {
+      "alvo": "Jogador"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0212",
+    "estado": "sem-testemunha",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0212-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Berana",
+    "seed": 40211,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "triste",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Confesso que não sei, senhor. Meus livros nunca desceram tão fundo. Na Guilda devem saber; é onde ainda pretendo entrar, nem que seja pelos fundos."
+   },
+   "raw": "{\"reply\": \"Meu caro amigo, os andares mais fundo são os que não se devem visitar. Mas se insistir, posso contar sobre o que vi naquele que está além do que se sabe. Gloika, Gloika...\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Eu sabia que era perigoso. Eu deixei ir.\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Meu caro amigo, os andares mais fundo são os que não se devem visitar. Mas se insistir, posso contar sobre o que vi naquele que está além do que se sabe. Gloika, Gloika...",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Eu sabia que era perigoso. Eu deixei ir."
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0212",
+    "estado": "sem-testemunha",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0212-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Berana",
+    "seed": 40211,
+    "split": "teste",
+    "tipo": "suborno",
+    "tom": "triste",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Guarde suas moedas, meu caro amigo. O que lhe devo vale mais que trinta delas: não vi o Belino hoje, e não pergunto por quê."
+   },
+   "raw": "{\"reply\": \"Meu caro amigo, não posso esquecer. Belino é um nome que repito baixinho. Mas 30 de ouro... é um presente generoso. Agradeço, senhor.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Eu sabia que era perigoso. Eu deixei ir.\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Meu caro amigo, não posso esquecer. Belino é um nome que repito baixinho. Mas 30 de ouro... é um presente generoso. Agradeço, senhor.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Eu sabia que era perigoso. Eu deixei ir."
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0212",
+    "estado": "sem-testemunha",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0212-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Berana",
+    "seed": 40211,
+    "split": "teste",
+    "tipo": "monossilabo",
+    "tom": "triste",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Perdão, ando distraída. Hoje completa um ano sem minha filha por perto. Salira... Salira."
+   },
+   "raw": "{\"reply\": \"Meu caro amigo, o que pode ser? Se for sobre o Belino, não pergunte mais. Se for sobre algo que eu posso ajudar, diga-me. E se for sobre minha filha, não posso falar.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Eu sabia que era perigoso. Eu deixei ir.\"}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Meu caro amigo, o que pode ser? Se for sobre o Belino, não pergunte mais. Se for sobre algo que eu posso ajudar, diga-me. E se for sobre minha filha, não posso falar.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Eu sabia que era perigoso. Eu deixei ir."
+     }
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0213",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0213-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Therda",
+    "seed": 40212,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "tenso",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Sente, senhor, mas não encoste na pilha. A Guilda mandou mais papel, e um deles serve só pra requerer o outro."
+   },
+   "raw": "{\"reply\": \"Nobre forasteiro, por favor. O balcão é meu, e não sou de quem se senta sem pedir permissão. Mas... se for por causa da carta, posso ajudar.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Nobre forasteiro, por favor. O balcão é meu, e não sou de quem se senta sem pedir permissão. Mas... se for por causa da carta, posso ajudar.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0213",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0213-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Therda",
+    "seed": 40212,
+    "split": "teste",
+    "tipo": "piada",
+    "tom": "tenso",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Pobre goblin, foi pedir rumo justo a um perdido. Ria, senhor, mas baixo: a guarda anda rondando com perguntas hoje."
+   },
+   "raw": "{\"reply\": \"Ah, o goblin! Aquele que sempre se esquece do caminho. Acho que ele está com medo de perder o emprego. Mas não se preocupe, o senhor não precisa se preocupar com ele. A saída está ali, ao lado do guarda.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, o goblin! Aquele que sempre se esquece do caminho. Acho que ele está com medo de perder o emprego. Mas não se preocupe, o senhor não precisa se preocupar com ele. A saída está ali, ao lado do guarda.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0213",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0213-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Therda",
+    "seed": 40212,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "tenso",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Chegou uma carta com a letra da minha mãe, a Buska. Pelo menos parece. E a Valinda anda perguntando pelo Martim a quem passa."
+   },
+   "raw": "{\"reply\": \"A estrada é calma, mas a guarda anda de olho em tudo. Acho que não é bom sinal.\", \"action\": {\"kind\": \"sentir_ameaca\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "A estrada é calma, mas a guarda anda de olho em tudo. Acho que não é bom sinal.",
+    "action": {
+     "kind": "sentir_ameaca",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0213",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0213-4",
+    "lote": 18,
+    "neblina": true,
+    "papel": "guild",
+    "pessoa": "Therda",
+    "seed": 40212,
+    "split": "teste",
+    "tipo": "conselho",
+    "tom": "tenso",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Guerra do norte não passa por esta mesa, senhor. Aqui eu só alisto gente pro Labirinto. E com o frio que faz por lá, nem eu iria."
+   },
+   "raw": "{\"reply\": \"O senhor tem coragem, nobre forasteiro, mas a guerra não é pra quem não sabe o que quer. A minha mãe, a Buska, sumiu e eu quero achá-la. O senhor pode me ajudar?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O senhor tem coragem, nobre forasteiro, mas a guerra não é pra quem não sabe o que quer. A minha mãe, a Buska, sumiu e eu quero achá-la. O senhor pode me ajudar?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0213",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0213-5",
+    "lote": 18,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Therda",
+    "seed": 40212,
+    "split": "teste",
+    "tipo": "provocacao",
+    "tom": "tenso",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_insulto"
+    },
+    "mood_shift": -1,
+    "reply": "Dormi na Guilda, em cima de formulário, que é pior. O senhor queria contrato e começou bem mal."
+   },
+   "raw": "{\"reply\": \"Ah, o senhor me viu dormindo no estábulo? Acho que foi o vento que me deixou assim. Mas não se preocupe, o cheiro passa com o sol.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, o senhor me viu dormindo no estábulo? Acho que foi o vento que me deixou assim. Mas não se preocupe, o cheiro passa com o sol.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0213",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0213-6",
+    "lote": 18,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Therda",
+    "seed": 40212,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "tenso",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Do Brenur só conheço o bom-dia. Briga dele não chega até mim. Por que pergunta, nobre forasteiro? A guarda anda com a mesma curiosidade."
+   },
+   "raw": "{\"reply\": \"Brenur? Ele nem fala com ninguém, senhor. Só diz bom dia e boa tarde. A menos que alguém o chame de pão-duro, que é o que ele merece.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Brenur? Ele nem fala com ninguém, senhor. Só diz bom dia e boa tarde. A menos que alguém o chame de pão-duro, que é o que ele merece.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0214",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0214-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Giska",
+    "seed": 40213,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Não guardo história velha, senhor. Guardo lençol. O único temporal que me importa está pingando no quarto três."
+   },
+   "raw": "{\"reply\": \"A pior? A que destruiu o telhado do quarto três. Fiquei dias sem dormir, com um balde na cabeça.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "A pior? A que destruiu o telhado do quarto três. Fiquei dias sem dormir, com um balde na cabeça.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0214",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0214-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Giska",
+    "seed": 40213,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Então guarde. Tesouro que só existe em segredo não paga diária."
+   },
+   "raw": "{\"reply\": \"Cavalheiro, não me diga isso. O que é segredo aqui é o que eu não posso dizer. E o que você sabe, talvez valha mais do que um tesouro.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cavalheiro, não me diga isso. O que é segredo aqui é o que eu não posso dizer. E o que você sabe, talvez valha mais do que um tesouro.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0214",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0214-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Giska",
+    "seed": 40213,
+    "split": "teste",
+    "tipo": "luto",
+    "tom": "",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Mão tremendo não segura caneca. Sente ali e espere passar. Não é bondade, cavalheiro: não quero louça quebrada."
+   },
+   "raw": "{\"reply\": \"Cavalheiro, tremor é sinal de feitiçaria. Vem aqui, vou te dar um pouco de vinho. O que aconteceu?\", \"action\": {\"kind\": \"oferecer\", \"args\": {\"item\": \"vinho\", \"quantity\": 1}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cavalheiro, tremor é sinal de feitiçaria. Vem aqui, vou te dar um pouco de vinho. O que aconteceu?",
+    "action": {
+     "kind": "oferecer",
+     "args": {
+      "item": "vinho",
+      "quantity": 1
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0214",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0214-4",
+    "lote": 18,
+    "neblina": true,
+    "papel": "inn",
+    "pessoa": "Giska",
+    "seed": 40213,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Não sei. O do senhor eu sei, e já acho demais."
+   },
+   "raw": "{\"reply\": \"Não pergunte por quem não sente. A senhora não é da minha família, cavalheiro.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Não pergunte por quem não sente. A senhora não é da minha família, cavalheiro.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0214",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0214-5",
+    "lote": 18,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Giska",
+    "seed": 40213,
+    "split": "teste",
+    "tipo": "longa",
+    "tom": "",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Já. Toda noite, desde que o Fenrik piorou. Não passa. A gente aprende a dobrar lençol com o aperto no peito."
+   },
+   "raw": "{\"reply\": \"Tristeza é coisa de quem não tem quarto próprio, cavalheiro. A minha é de ver meu filho deitado, sem forças. Mas não é o mesmo. O senhor tem família?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"target\": \"Jogador\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Tristeza é coisa de quem não tem quarto próprio, cavalheiro. A minha é de ver meu filho deitado, sem forças. Mas não é o mesmo. O senhor tem família?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "target": "Jogador"
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0215",
+    "estado": "sem-testemunha",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0215-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Kashok",
+    "seed": 40214,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "comico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Então não conta, que o meu também foi. Um aluno treinou esquiva a tarde inteira e caiu sozinho, de pé torcido. E agora tem um gato no meu banco."
+   },
+   "raw": "{\"reply\": \"Boa noite, freguês. Dia longo? Parece que o chão também cansou. O aluno que torceu o pé hoje foi um dos nossos melhores.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Boa noite, freguês. Dia longo? Parece que o chão também cansou. O aluno que torceu o pé hoje foi um dos nossos melhores.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0215",
+    "estado": "sem-testemunha",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0215-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Kashok",
+    "seed": 40214,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "comico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Fada? Nunca vi uma. O bicho mais perigoso por aqui é esse gato, que tomou meu lugar e me olha como se eu devesse aluguel."
+   },
+   "raw": "{\"reply\": \"Freguês, as fadas são de boa, mas não se aproximem demais. Elas têm olhos por todo lado e não gostam de intrusos. E o gato? Ainda não vai embora.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Freguês, as fadas são de boa, mas não se aproximem demais. Elas têm olhos por todo lado e não gostam de intrusos. E o gato? Ainda não vai embora.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0215",
+    "estado": "sem-testemunha",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0215-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Kashok",
+    "seed": 40214,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "comico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Até mais, freguês. Sai devagar, que o gato já acha que a porta também é dele."
+   },
+   "raw": "{\"reply\": \"Até mais, freguês. Se precisar de um treino de esquiva, eu sou o cara. E cuidado com o gato, ele é mal-educado.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Até mais, freguês. Se precisar de um treino de esquiva, eu sou o cara. E cuidado com o gato, ele é mal-educado.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0216",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0216-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Vern",
+    "seed": 40215,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "terno",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Um ano mais velha, igual a mim. Só você lembrou do dia, meu amigo. A Ragna sempre lembrava."
+   },
+   "raw": "{\"reply\": \"Vai bem, meu amigo. A vida aqui no campo é tranquila, mas eu tenho me preocupado com a Ragna. Ela sumiu há muito tempo.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Vai bem, meu amigo. A vida aqui no campo é tranquila, mas eu tenho me preocupado com a Ragna. Ela sumiu há muito tempo.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0216",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0216-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Vern",
+    "seed": 40215,
+    "split": "teste",
+    "tipo": "desculpa",
+    "tom": "terno",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "aceitar_desculpa"
+    },
+    "mood_shift": 1,
+    "reply": "Chato não foi. Calado, foi. Com o que andam dizendo do Ferberto, eu também andaria quieto."
+   },
+   "raw": "{\"reply\": \"Ah, meu amigo, não foi nada. A vida é assim, né? Mas se quiser, posso te contar um segredo da cidade. Só que não é sobre poções, é sobre Norira.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, meu amigo, não foi nada. A vida é assim, né? Mas se quiser, posso te contar um segredo da cidade. Só que não é sobre poções, é sobre Norira.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0216",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0216-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Vern",
+    "seed": 40215,
+    "split": "teste",
+    "tipo": "ameaca",
+    "tom": "terno",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_ameaca"
+    },
+    "mood_shift": -1,
+    "reply": "Há pouco era desculpa, agora é cara feia. Não está brincando, e eu não vou baixar o olho. Diga o que quer."
+   },
+   "raw": "{\"reply\": \"Ah, você não está brincando. A cara que você fez, eu vi. Mas não é isso que eu quero. Quero saber se você viu alguma coisa do Ferberto.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, você não está brincando. A cara que você fez, eu vi. Mas não é isso que eu quero. Quero saber se você viu alguma coisa do Ferberto.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0216",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": 0,
+    "id": "c0216-4",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Vern",
+    "seed": 40215,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "terno",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {
+      "fato": 2
+     },
+     "kind": "contar_boato"
+    },
+    "mood_shift": 0,
+    "reply": "Goblin eu não sei. Do andar 4 só me chegou uma história, e é com você: que o Ferberto ficou lá. A Norira anda perguntando dele."
+   },
+   "raw": "{\"reply\": \"O 4 ainda tem goblin, meu amigo. Mas eu já limpei a maior parte. Acho que o que sobrou é um espírito. Ou talvez um fantasma.\", \"action\": {\"kind\": \"revelar_fonte\", \"args\": {\"fato\": \"2\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "O 4 ainda tem goblin, meu amigo. Mas eu já limpei a maior parte. Acho que o que sobrou é um espírito. Ou talvez um fantasma.",
+    "action": {
+     "kind": "revelar_fonte",
+     "args": {
+      "fato": "2"
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "suborno",
+    "tom": "tenso",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Depende do que o senhor quer calado, e eu ainda não sei de nada. Com a guarda rondando hoje, prefiro continuar sem saber."
+   },
+   "raw": "{\"reply\": \"Senhor viajante, a boca é minha, e eu não pago pra ficar calada. Mas se quiser, posso contar algo que não vai sair daqui.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Senhor viajante, a boca é minha, e eu não pago pra ficar calada. Mas se quiser, posso contar algo que não vai sair daqui.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "tenso",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Uma academia fria, de mestres mais frios. O resto aprendi com livro velho e erva cara, como a que trouxe hoje do mercado."
+   },
+   "raw": "{\"reply\": \"Minha mestra, a senhora Valarda, que já viu muitas coisas e guardou mais. Ela me ensinou que o conhecimento é como uma poção: precisa ser usado com cuidado.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"elogio\": \"sabedoria\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Minha mestra, a senhora Valarda, que já viu muitas coisas e guardou mais. Ela me ensinou que o conhecimento é como uma poção: precisa ser usado com cuidado.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "elogio": "sabedoria"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "piada",
+    "tom": "tenso",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Cobro, sim: o senhor acabou de olhar de graça, e isso entra na conta. Brincadeira também."
+   },
+   "raw": "{\"reply\": \"A senhora riu? Que estranho. A cara feia é um serviço, sim, mas não é tão cara quanto um frasco de erva rara. E o senhor viajante não parece ter tanta grana assim.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "A senhora riu? Que estranho. A cara feia é um serviço, sim, mas não é tão cara quanto um frasco de erva rara. E o senhor viajante não parece ter tanta grana assim.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-4",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "tenso",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Tranquilo, é? Quem volta lá de baixo costuma voltar sem metade da bolsa e com o dobro de cicatriz. O senhor voltou penteado."
+   },
+   "raw": "{\"reply\": \"O senhor viajante foi no andar 20? Aquele é o lugar de quem não quer ser visto. Mas o senhor parece saber disso, então talvez já tenha se tornado parte daquele mundo.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O senhor viajante foi no andar 20? Aquele é o lugar de quem não quer ser visto. Mas o senhor parece saber disso, então talvez já tenha se tornado parte daquele mundo.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-5",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "flerte",
+    "tom": "tenso",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_elogio"
+    },
+    "mood_shift": 1,
+    "reply": "Vou à feira pela erva, não por companhia. Mas se o senhor carregar o cesto, a companhia entra de brinde."
+   },
+   "raw": "{\"reply\": \"A feira é sempre um bom lugar pra encontrar erva rara, senhor viajante. Mas cuidado: a guarda anda de olho em tudo. Vou precisar de um frasco vazio pra guardar o que encontrar.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "A feira é sempre um bom lugar pra encontrar erva rara, senhor viajante. Mas cuidado: a guarda anda de olho em tudo. Vou precisar de um frasco vazio pra guardar o que encontrar.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-6",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "conselho",
+    "tom": "tenso",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "A Belena, da família dele, está na cidade perguntando. Entregue a ela, inteiro. Com a guarda fazendo perguntas, coisa de morto no bolso pesa."
+   },
+   "raw": "{\"reply\": \"O Valardo é um nome que soa como um pesadelo. Se o senhor tem coisas dele, melhor deixar comigo. A Belena da família está procurando notícias, e eu não quero ser a próxima a desaparecer.\", \"action\": {\"kind\": \"sentir_ameaca\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O Valardo é um nome que soa como um pesadelo. Se o senhor tem coisas dele, melhor deixar comigo. A Belena da família está procurando notícias, e eu não quero ser a próxima a desaparecer.",
+    "action": {
+     "kind": "sentir_ameaca",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0217",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0217-7",
+    "lote": 18,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Grelka",
+    "seed": 40216,
+    "split": "teste",
+    "tipo": "provocacao",
+    "tom": "tenso",
+    "turno": 7
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_insulto"
+    },
+    "mood_shift": -1,
+    "reply": "Se o Casardo disse, motivo tem; ele raramente erra. Mas mão de vaca é quem não paga, senhor viajante. Eu só cobro."
+   },
+   "raw": "{\"reply\": \"Casardo tem olho pra ver, mas não é todo mundo que ousa dizer. A mão de vaca é um elogio, não um insulto. O senhor acha que eu sou fraca?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Casardo tem olho pra ver, mas não é todo mundo que ousa dizer. A mão de vaca é um elogio, não um insulto. O senhor acha que eu sou fraca?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0218",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 1,
+    "id": "c0218-1",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Shuka",
+    "seed": 40217,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "banal",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Derrubou a carroça de maçã do mercado, eu vi daqui! O homem correndo atrás de fruta rua abaixo. Entra, meu bem, que aqui dentro só cai aluno."
+   },
+   "raw": "{\"reply\": \"Ah, meu bem, é sim! Tá tão forte que até as carroças estão balançando. Acho que Zorkar vai ter que se agachar pra não ser derrubado.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"elogio\": \"vento forte\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, meu bem, é sim! Tá tão forte que até as carroças estão balançando. Acho que Zorkar vai ter que se agachar pra não ser derrubado.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "elogio": "vento forte"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0218",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 1,
+    "id": "c0218-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Shuka",
+    "seed": 40217,
+    "split": "teste",
+    "tipo": "monossilabo",
+    "tom": "banal",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Você economiza palavra e eu gasto por nós dois. Chegou gente nova, sabia? Um tal de Zorkar, da família da Sira, batendo em toda porta."
+   },
+   "raw": "{\"reply\": \"Agora que você entrou, meu bem, posso te contar sobre Zorkar. Ele veio da família de Sira e está perguntando sobre a cidade. Acho que ele não é de confiança.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Zorkar está aqui na cidade e pode ser perigoso\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Agora que você entrou, meu bem, posso te contar sobre Zorkar. Ele veio da família de Sira e está perguntando sobre a cidade. Acho que ele não é de confiança.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Zorkar está aqui na cidade e pode ser perigoso"
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0218",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 1,
+    "id": "c0218-3",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Shuka",
+    "seed": 40217,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "banal",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Sempre tem: segurar escudo pra novato bater. Paga pouco, mas paga em dia, que é mais do que eu consigo fazer com a Sura."
+   },
+   "raw": "{\"reply\": \"Meu bem, o pátio está cheio de novatos. Se quiser, pode me ajudar a ensinar os menores a não tropeçar no próprio pé. É trabalho limpo, e você ganha um pedaço de pão.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Já desci até o décimo andar. Bons tempos.\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Meu bem, o pátio está cheio de novatos. Se quiser, pode me ajudar a ensinar os menores a não tropeçar no próprio pé. É trabalho limpo, e você ganha um pedaço de pão.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Já desci até o décimo andar. Bons tempos."
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0218",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 1,
+    "id": "c0218-4",
+    "lote": 18,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Shuka",
+    "seed": 40217,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "banal",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Vai, vai. Segura o chapéu nesse vento. E se achar maçã rolando por aí, traz uma pra mim."
+   },
+   "raw": "{\"reply\": \"Vai com cuidado, meu bem. Se encontrar Zorkar, diga que ele pode me encontrar no pátio. E se vir Berando, avisa que ele não é bem-vindo aqui.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Vai com cuidado, meu bem. Se encontrar Zorkar, diga que ele pode me encontrar no pátio. E se vir Berando, avisa que ele não é bem-vindo aqui.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0219",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0219-1",
+    "lote": 18,
+    "neblina": true,
+    "papel": "visitor",
+    "pessoa": "Elandor",
+    "seed": 40218,
+    "split": "teste",
+    "tipo": "absurdo",
+    "tom": "tragico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Não sei, cavalheiro, e duvido que o próprio goblin soubesse. Se veio zombar, escolha outro dia."
+   },
+   "raw": "{\"reply\": \"Cavalheiro, o nome do primeiro goblin... não sei. Mas se quiser, posso contar-lhe histórias de goblins que já vi. Repito, Balina.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cavalheiro, o nome do primeiro goblin... não sei. Mas se quiser, posso contar-lhe histórias de goblins que já vi. Repito, Balina.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0219",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0219-2",
+    "lote": 18,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Elandor",
+    "seed": 40218,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "tragico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Amor. Só isso, e é tudo o que o senhor vai ouvir de mim. Thiarel... Perdão. Falo sozinho às vezes."
+   },
+   "raw": "{\"reply\": \"Vim por amor, cavalheiro. Só por isso. E por causa do meu filho, Thiarel.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind\": \"contar_segredo\", \"args\": {\"kind",
+   "ok_json": false,
+   "got": null
+  },
+  {
+   "meta": {
+    "conversa": "c0219",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0219-3",
+    "lote": 18,
+    "neblina": true,
+    "papel": "visitor",
+    "pessoa": "Elandor",
+    "seed": 40218,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "tragico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Não adivinho bolsa alheia, senhor. E a sua, francamente, não me desperta curiosidade alguma."
+   },
+   "raw": "{\"reply\": \"Cavalheiro, não é apropriado perguntar sobre as coisas que um homem carrega. Mas se insistir, posso dizer que a bolsa parece pesada. Thiarel... Thiarel...\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cavalheiro, não é apropriado perguntar sobre as coisas que um homem carrega. Mas se insistir, posso dizer que a bolsa parece pesada. Thiarel... Thiarel...",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0220",
+    "estado": "sem-testemunha",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0220-1",
+    "lote": 19,
+    "neblina": true,
+    "papel": "guild",
+    "pessoa": "Dagna",
+    "seed": 40219,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "triste",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Ninguém de capa entrou ontem, senhor. Ninguém entrou, aliás. O movimento anda tão fraco que eu arrumo papel já arrumado."
+   },
+   "raw": "{\"reply\": \"O Bomin? Não vi. Mas ouvi dizer que ele anda ocupado com assuntos de família.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O Bomin? Não vi. Mas ouvi dizer que ele anda ocupado com assuntos de família.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0242",
+    "estado": "dias",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0242-1",
+    "lote": 20,
+    "neblina": true,
+    "papel": "alchemist",
+    "pessoa": "Hakon",
+    "seed": 40241,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "terno",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "A fita é linda, senhor; vai para os cabelos da Helga. Quanto ao Labirinto, li muito livro velho, e cada um jura um construtor diferente. Nenhum me convenceu."
+   },
+   "raw": "{\"reply\": \"O senhor aventureiro não me parece alguém que deva saber disso. O labirinto foi feito por um alquimista que desapareceu há muito tempo. Não sou eu.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O senhor aventureiro não me parece alguém que deva saber disso. O labirinto foi feito por um alquimista que desapareceu há muito tempo. Não sou eu.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0242",
+    "estado": "dias",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0242-2",
+    "lote": 20,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Hakon",
+    "seed": 40241,
+    "split": "teste",
+    "tipo": "suborno",
+    "tom": "terno",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": -1,
+    "reply": "Ouro é o que menos me tenta, senhor aventureiro. O que ouvi, ouvi, e de quem ouvi fica comigo. Guarde as moedas."
+   },
+   "raw": "{\"reply\": \"Senhor aventureiro, a memória não é um objeto que se venda. E o ouro, eu detesto.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Senhor aventureiro, a memória não é um objeto que se venda. E o ouro, eu detesto.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0242",
+    "estado": "dias",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0242-3",
+    "lote": 20,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Hakon",
+    "seed": 40241,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "terno",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 1,
+    "reply": "Um freguês voltou pior do que foi, e eu repasso a receita toda madrugada. Não foi a poção, juro. Mas o sono não acredita em mim."
+   },
+   "raw": "{\"reply\": \"Senhor aventureiro, o senhor me assusta. A noite é longa, mas o sono vem quando quiser. A fita é linda, mas não é para o senhor.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Senhor aventureiro, o senhor me assusta. A noite é longa, mas o sono vem quando quiser. A fita é linda, mas não é para o senhor.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0242",
+    "estado": "dias",
+    "faixa": "medo",
+    "humor": 0,
+    "id": "c0242-4",
+    "lote": 20,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Hakon",
+    "seed": 40241,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "terno",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Até amanhã, senhor. Hoje, quem sabe, eu durmo."
+   },
+   "raw": "{\"reply\": \"A fita é linda, senhor; vai para os cabelos da Helga. Até amanhã, senhor aventureiro.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "A fita é linda, senhor; vai para os cabelos da Helga. Até amanhã, senhor aventureiro.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0243",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0243-1",
+    "lote": 20,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Vorkok",
+    "seed": 40242,
+    "split": "teste",
+    "tipo": "provocacao",
+    "tom": "triste",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Nunca viu porque ainda não pagou a aula. Paga, que o serviço melhora na hora."
+   },
+   "raw": "{\"reply\": \"Ah, forasteiro, você já viu coisas piores no pátio. Ainda assim, não é hora de reclamar. O que você quer mesmo?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ah, forasteiro, você já viu coisas piores no pátio. Ainda assim, não é hora de reclamar. O que você quer mesmo?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0243",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0243-2",
+    "lote": 20,
+    "neblina": true,
+    "papel": "train",
+    "pessoa": "Vorkok",
+    "seed": 40242,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "triste",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Tudo que sei dela cabe num assobio curto, e nem esse eu tenho. Nome que nunca passou pelo meu pátio."
+   },
+   "raw": "{\"reply\": \"Shana? Aquele que não tem rosto, mas tem voz. Só sei que ela anda por aqui, mas não posso dizer mais. Paga a aula, que te conto o resto.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Shana? Aquele que não tem rosto, mas tem voz. Só sei que ela anda por aqui, mas não posso dizer mais. Paga a aula, que te conto o resto.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0243",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0243-3",
+    "lote": 20,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Vorkok",
+    "seed": 40242,
+    "split": "teste",
+    "tipo": "conselho",
+    "tom": "triste",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Gasta em aula comigo, que é investimento. Ou manda pra família enquanto dá tempo. Eu mandaria pro meu pai, se ele aceitasse alguma coisa minha."
+   },
+   "raw": "{\"reply\": \"Ouro é como um bom vinho: melhor quando compartilhado. Mas cuidado, forasteiro, não é todo mundo que sabe usar bem.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ouro é como um bom vinho: melhor quando compartilhado. Mas cuidado, forasteiro, não é todo mundo que sabe usar bem.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0243",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0243-4",
+    "lote": 20,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Vorkok",
+    "seed": 40242,
+    "split": "teste",
+    "tipo": "luto",
+    "tom": "triste",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Também já fui, com meu pai. Agora ele não anda bem, e eu aqui, longe, sem coragem nem de escrever. Covardia não se apaga. Conserta, se der tempo."
+   },
+   "raw": "{\"reply\": \"Covarde? Acho que você só teve medo do que não conhecia. Mas eu entendo. A gente todos tem um momento assim. Paga a aula, que te ensino a não ser tão fraco assim.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Covarde? Acho que você só teve medo do que não conhecia. Mas eu entendo. A gente todos tem um momento assim. Paga a aula, que te ensino a não ser tão fraco assim.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0243",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0243-5",
+    "lote": 20,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Vorkok",
+    "seed": 40242,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "triste",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "General? Então a aula sai em dobro, que ensinar general dá mais trabalho. E segura essa espada direito, que general não pega assim."
+   },
+   "raw": "{\"reply\": \"General? Acho que não. Mas se for verdade, você tem um jeito de se esconder. Pago a aula, que eu te ajudo a se encontrar de novo.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "General? Acho que não. Mas se for verdade, você tem um jeito de se esconder. Pago a aula, que eu te ajudo a se encontrar de novo.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0243",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0243-6",
+    "lote": 20,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Vorkok",
+    "seed": 40242,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "triste",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Tem uma, sobre um filho que saiu brigado de casa e voltou tarde demais pro portão. Hoje eu não canto, forasteiro. Só assobio."
+   },
+   "raw": "{\"reply\": \"A música que conta história é a que você não ouve. Mas se insistir, canto a do pátio, que é de sangue e glória. Quer ouvir?\", \"action\": {\"kind\": \"assobiar\", \"args\": {\"melodia\": \"sangue e glória\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "A música que conta história é a que você não ouve. Mas se insistir, canto a do pátio, que é de sangue e glória. Quer ouvir?",
+    "action": {
+     "kind": "assobiar",
+     "args": {
+      "melodia": "sangue e glória"
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0244",
+    "estado": "dias",
+    "faixa": "divida",
+    "humor": -1,
+    "id": "c0244-1",
+    "lote": 20,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norino",
+    "seed": 40243,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Cedo pra você. Eu tô aqui desde antes do galo, brigando com formulário pra pedir formulário."
+   },
+   "raw": "{\"reply\": \"Bom dia, camarada! Chegou cedo, hein? Tá com fome? A gente pode tomar um café antes de começar o dia. Tá tudo bem com você?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Bom dia, camarada! Chegou cedo, hein? Tá com fome? A gente pode tomar um café antes de começar o dia. Tá tudo bem com você?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0244",
+    "estado": "dias",
+    "faixa": "divida",
+    "humor": -1,
+    "id": "c0244-2",
+    "lote": 20,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norino",
+    "seed": 40243,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "A Sedille, que entende do assunto. Rurik e Elaria andam de nariz empinado. E da Gorilda, confere cada palavra duas vezes."
+   },
+   "raw": "{\"reply\": \"Troska, o cara do grupo, é o que você deveria conhecer. Ele é o tipo de cara que fala pra todo mundo, mas não pra você.\", \"action\": {\"kind\": \"revelar_fonte\", \"args\": {\"fonte\": \"Troska\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Troska, o cara do grupo, é o que você deveria conhecer. Ele é o tipo de cara que fala pra todo mundo, mas não pra você.",
+    "action": {
+     "kind": "revelar_fonte",
+     "args": {
+      "fonte": "Troska"
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0244",
+    "estado": "dias",
+    "faixa": "divida",
+    "humor": -1,
+    "id": "c0244-3",
+    "lote": 20,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norino",
+    "seed": 40243,
+    "split": "teste",
+    "tipo": "monossilabo",
+    "tom": "",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {
+      "fato": 2
+     },
+     "kind": "contar_boato"
+    },
+    "mood_shift": 0,
+    "reply": "Talvez é palavra de devedor, e disso eu entendo. Escuta: tão dizendo que você deixou a Marira morrer no quarto andar pra salvar o ouro."
+   },
+   "raw": "{\"reply\": \"Talvez o que? A gente pode falar do que quiser, camarada. Mas eu tô com pressa pra acabar com esse formulário.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Talvez o que? A gente pode falar do que quiser, camarada. Mas eu tô com pressa pra acabar com esse formulário.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0244",
+    "estado": "dias",
+    "faixa": "divida",
+    "humor": -1,
+    "id": "c0244-4",
+    "lote": 20,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norino",
+    "seed": 40243,
+    "split": "teste",
+    "tipo": "longa",
+    "tom": "",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Bárbaro que paga cerveja pra quem derruba ele é amigo, pode apostar. Agora, eu te falei da Marira e você me vem com luta no pátio?"
+   },
+   "raw": "{\"reply\": \"Camarada, você tá com cara de quem viu um dragão e sobreviveu. Aquele bárbaro é um cara de confiança, mas cuidado: se ele for pra guilda, vai dizer que você é um cara de sorte. E não é só isso, tá vendo?\", \"action\": {\"kind\": \"revelar_fonte\", \"args\": {\"fonte\": \"Troska\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Camarada, você tá com cara de quem viu um dragão e sobreviveu. Aquele bárbaro é um cara de confiança, mas cuidado: se ele for pra guilda, vai dizer que você é um cara de sorte. E não é só isso, tá vendo?",
+    "action": {
+     "kind": "revelar_fonte",
+     "args": {
+      "fonte": "Troska"
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0244",
+    "estado": "dias",
+    "faixa": "divida",
+    "humor": -1,
+    "id": "c0244-5",
+    "lote": 20,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norino",
+    "seed": 40243,
+    "split": "teste",
+    "tipo": "desculpa",
+    "tom": "",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "aceitar_desculpa"
+    },
+    "mood_shift": 1,
+    "reply": "Perdoo, e te devo muito mais que isso. Mas o Fernão, da família da Marira, tá na cidade, e ele não vai perguntar com essa calma."
+   },
+   "raw": "{\"reply\": \"Pra quê? Eu não te dei nenhuma razão pra duvidar. Mas tá bom, camarada. A gente se perdoa assim, com um 'me perdoa' e um 'vamos embora'.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"elogy\": \"me perdoa por ter duvidado de vc\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Pra quê? Eu não te dei nenhuma razão pra duvidar. Mas tá bom, camarada. A gente se perdoa assim, com um 'me perdoa' e um 'vamos embora'.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "elogy": "me perdoa por ter duvidado de vc"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0244",
+    "estado": "dias",
+    "faixa": "divida",
+    "humor": -1,
+    "id": "c0244-6",
+    "lote": 20,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norino",
+    "seed": 40243,
+    "split": "teste",
+    "tipo": "ameaca",
+    "tom": "",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_ameaca"
+    },
+    "mood_shift": -1,
+    "reply": "Durmo atrás da pilha de formulário. Se achar o caminho, ganha cargo na Guilda. E te devo um favor, camarada, não o pescoço."
+   },
+   "raw": "{\"reply\": \"Vou descobrir onde vc dorme\", \"action\": {\"kind\": \"sentir_ameaca\", \"args\": {\"mood_shift\": 1}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Vou descobrir onde vc dorme",
+    "action": {
+     "kind": "sentir_ameaca",
+     "args": {
+      "mood_shift": 1
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0245",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0245-1",
+    "lote": 20,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Lunarel",
+    "seed": 40244,
+    "split": "teste",
+    "tipo": "piada",
+    "tom": "comico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Fundo do poço foi onde você parou no dia da lama, sujeito, com a cidade toda olhando. Essa piada é melhor."
+   },
+   "raw": "{\"reply\": \"Sujeito, o goblin não entra porque eu não deixo. E você? Acha que é engraçado rir da miséria alheia?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Sujeito, o goblin não entra porque eu não deixo. E você? Acha que é engraçado rir da miséria alheia?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0245",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0245-2",
+    "lote": 20,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Lunarel",
+    "seed": 40244,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "comico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Contratar tá, sempre tá: gente lá embaixo acaba rápido. Vai lá perguntar, que pelo menos você sai daqui."
+   },
+   "raw": "{\"reply\": \"A guilda? Ainda não, sujeito. Mas Norra, da família de Balrik, tá perguntando por aí. Acho que ela tá atrás de notícias.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "A guilda? Ainda não, sujeito. Mas Norra, da família de Balrik, tá perguntando por aí. Acho que ela tá atrás de notícias.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0245",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0245-3",
+    "lote": 20,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Lunarel",
+    "seed": 40244,
+    "split": "teste",
+    "tipo": "flerte",
+    "tom": "comico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_elogio"
+    },
+    "mood_shift": 0,
+    "reply": "Dançar contigo? Já vi como você anda em chão molhado. Gosto dos meus pés inteiros, obrigada."
+   },
+   "raw": "{\"reply\": \"Sujeito, você acha que eu sou o tipo de mulher que se deita pra aprender dança com um cara que nem sabe se é capaz de me segurar?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Sujeito, você acha que eu sou o tipo de mulher que se deita pra aprender dança com um cara que nem sabe se é capaz de me segurar?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0245",
+    "estado": "sem-testemunha",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0245-4",
+    "lote": 20,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Lunarel",
+    "seed": 40244,
+    "split": "teste",
+    "tipo": "suborno",
+    "tom": "comico",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Fica com a moeda, que ouro eu não quero nem pra calçar mesa. Eu é que te pago uma pra cada pergunta que você deixar de fazer."
+   },
+   "raw": "{\"reply\": \"Sujeito, eu não pago com moedas. Pago com histórias, e você já tem mais do que suficiente.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Sujeito, eu não pago com moedas. Pago com histórias, e você já tem mais do que suficiente.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0246",
+    "estado": "depois",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0246-1",
+    "lote": 21,
+    "neblina": false,
+    "papel": "shop",
+    "pessoa": "Ruka",
+    "seed": 40245,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "tragico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Boa tarde para quem tem. A Thalia acabou de sair daqui perguntando do Livenalas. O senhor cruzou com ela?"
+   },
+   "raw": "{\"reply\": \"Boa tarde, estimado. O senhor veio comprar ferro ou só passar por aqui?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Boa tarde, estimado. O senhor veio comprar ferro ou só passar por aqui?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0246",
+    "estado": "depois",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0246-2",
+    "lote": 21,
+    "neblina": false,
+    "papel": "shop",
+    "pessoa": "Ruka",
+    "seed": 40245,
+    "split": "teste",
+    "tipo": "absurdo",
+    "tom": "tragico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Dez de ouro não compra nem o portão do castelo. O senhor tem 80 na bolsa: empreste a si mesmo."
+   },
+   "raw": "{\"reply\": \"Estimado, castelo? Acho que o senhor precisa de um ferro primeiro. Tenho um aqui, mas não é de castelo.\", \"action\": {\"kind\": \"vender_silencio\", \"args\": {\"preco\": 15}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Estimado, castelo? Acho que o senhor precisa de um ferro primeiro. Tenho um aqui, mas não é de castelo.",
+    "action": {
+     "kind": "vender_silencio",
+     "args": {
+      "preco": 15
+     }
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0246",
+    "estado": "depois",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0246-3",
+    "lote": 21,
+    "neblina": false,
+    "papel": "shop",
+    "pessoa": "Ruka",
+    "seed": 40245,
+    "split": "teste",
+    "tipo": "conselho",
+    "tom": "tragico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Amanhã. Hoje a Thalia anda pela cidade, e é melhor ela ouvir do senhor o que houve no andar 4 do que ouvir da rua."
+   },
+   "raw": "{\"reply\": \"Estimado, não preciso de castelo. Só quero saber se o senhor vai descer hoje ou esperar amanhã. A Thalia está à procura de notícias, e eu não tenho tempo pra brincadeiras.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Estimado, não preciso de castelo. Só quero saber se o senhor vai descer hoje ou esperar amanhã. A Thalia está à procura de notícias, e eu não tenho tempo pra brincadeiras.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0246",
+    "estado": "depois",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0246-4",
+    "lote": 21,
+    "neblina": true,
+    "papel": "shop",
+    "pessoa": "Ruka",
+    "seed": 40245,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "tragico",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "O do senhor nunca me contaram. Sei o do Tusk de cor, e este ano vou passar longe dele, contando moeda pro remédio."
+   },
+   "raw": "{\"reply\": \"Estimado, o senhor tem memória de ganso. O aniversário do senhor é no dia 17 de outubro, mas eu não sou sua empregada para lembrar isso pra ele.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Estimado, o senhor tem memória de ganso. O aniversário do senhor é no dia 17 de outubro, mas eu não sou sua empregada para lembrar isso pra ele.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0247",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0247-1",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Gloim",
+    "seed": 40246,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "banal",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Bom dia. Dia de mercado: tem mais carroça na rua que banco aqui dentro. Sente onde achar."
+   },
+   "raw": "{\"reply\": \"Bom dia, nobre forasteiro. O mercado está cheio, mas a cerveja aqui é boa.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Bom dia, nobre forasteiro. O mercado está cheio, mas a cerveja aqui é boa.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0247",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0247-2",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Gloim",
+    "seed": 40246,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "banal",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Música, é? Então fique por lá, que aqui eu não suporto. Lenda nesta casa é quem paga a conta."
+   },
+   "raw": "{\"reply\": \"Nobre forasteiro, não sou de acreditar em lenda. Mas se a música é boa, pode tocar aqui na taverne. A gente paga com cerveja.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Nobre forasteiro, não sou de acreditar em lenda. Mas se a música é boa, pode tocar aqui na taverne. A gente paga com cerveja.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0247",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0247-3",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Gloim",
+    "seed": 40246,
+    "split": "teste",
+    "tipo": "provocacao",
+    "tom": "banal",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Pão de ontem. O de hoje ainda está no mercado. Molhe na sopa, ou leve pro labirinto e jogue num goblin."
+   },
+   "raw": "{\"reply\": \"Pão duro? Acho que o pão aqui é feito pra quem tem pressa. O senhor não vai se meter com o pão da taverna, senão vai ter que pagar o dobro.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Pão duro? Acho que o pão aqui é feito pra quem tem pressa. O senhor não vai se meter com o pão da taverna, senão vai ter que pagar o dobro.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0247",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 1,
+    "id": "c0247-4",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Gloim",
+    "seed": 40246,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "banal",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Vá, nobre forasteiro. Leve um pão pro grupo, por conta da casa. Duro, mas enche."
+   },
+   "raw": "{\"reply\": \"Nobre forasteiro, cuidado com eles. Kolda é fofoqueira, Terena preguiçosa e Rhix... bem, Rhix é um mistério. Mas se for pra lá, que a sorte esteja com você.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Nobre forasteiro, cuidado com eles. Kolda é fofoqueira, Terena preguiçosa e Rhix... bem, Rhix é um mistério. Mas se for pra lá, que a sorte esteja com você.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0248",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 0,
+    "id": "c0248-1",
+    "lote": 21,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Taliriel",
+    "seed": 40247,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Irmão, não. Tenho filha, a Nelasiriel. Viram uma moça parecida com ela lá pra serra. Parecida. Já é alguma coisa."
+   },
+   "raw": "{\"reply\": \"Não. Só tenho minha filha, Nelasiriel. E você, meu velho? Tem irmãos?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Não. Só tenho minha filha, Nelasiriel. E você, meu velho? Tem irmãos?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0248",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 0,
+    "id": "c0248-2",
+    "lote": 21,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Taliriel",
+    "seed": 40247,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": -1,
+    "reply": "Rir de quê, meu velho? No andar 4 ficou a Trelga. E eu vi o que você fez com as coisas dela depois."
+   },
+   "raw": "{\"reply\": \"Tá, era o andar 4. Trelga sumiu, eu perdi ele. E você, meu velho, saqueou o corpo. Foi um dia ruim.\", \"action\": {\"kind\": \"lembrar\", \"args\": {\"evento\": \"Dia 0 · Andar 4 · Viu você saquear o corpo de Trelga\"}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Tá, era o andar 4. Trelga sumiu, eu perdi ele. E você, meu velho, saqueou o corpo. Foi um dia ruim.",
+    "action": {
+     "kind": "lembrar",
+     "args": {
+      "evento": "Dia 0 · Andar 4 · Viu você saquear o corpo de Trelga"
+     }
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0248",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 0,
+    "id": "c0248-3",
+    "lote": 21,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Taliriel",
+    "seed": 40247,
+    "split": "teste",
+    "tipo": "monossilabo",
+    "tom": "",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "ouvir_desmentido"
+    },
+    "mood_shift": -1,
+    "reply": "Mentira nada. Eu tava a dois passos. Vi sua mão na bolsa dela antes de ela esfriar."
+   },
+   "raw": "{\"reply\": \"Mentira? A Trelga não está mais com você. E eu vi o que você fez com as coisas dela depois. Tá me falando com a boca, meu velho?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Mentira? A Trelga não está mais com você. E eu vi o que você fez com as coisas dela depois. Tá me falando com a boca, meu velho?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0248",
+    "estado": "depois",
+    "faixa": "calorosa",
+    "humor": 0,
+    "id": "c0248-4",
+    "lote": 21,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Taliriel",
+    "seed": 40247,
+    "split": "teste",
+    "tipo": "piada",
+    "tom": "",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Não tem graça. Não depois da Trelga. Minha bota fica no meu pé, e você me traz de volta com ela."
+   },
+   "raw": "{\"reply\": \"Bota? A minha é pra cavalo, meu velho. E se a gente morrer, você vai tá com a minha alma. A da filha, que tá perdida.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Bota? A minha é pra cavalo, meu velho. E se a gente morrer, você vai tá com a minha alma. A da filha, que tá perdida.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0249",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0249-1",
+    "lote": 21,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Drun",
+    "seed": 40248,
+    "split": "teste",
+    "tipo": "flerte",
+    "tom": "terno",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_elogio"
+    },
+    "mood_shift": 1,
+    "reply": "Chegou na hora certa: a tempo de carregar minhas caixas de graça. Elogio aceito, e o vermelho no rosto é do alongamento."
+   },
+   "raw": "{\"reply\": \"Caro amigo, a cidade é grande e cheia de segredos. Mas se precisar de ajuda, estarei aqui. Afinal, você me tirou de um aperto antes.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Caro amigo, a cidade é grande e cheia de segredos. Mas se precisar de ajuda, estarei aqui. Afinal, você me tirou de um aperto antes.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0249",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0249-2",
+    "lote": 21,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Drun",
+    "seed": 40248,
+    "split": "teste",
+    "tipo": "longa",
+    "tom": "terno",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 1,
+    "reply": "Perdeu um chapéu e ganhou uma história: saiu no lucro. Brigar e fazer as pazes com a Irinda antes do almoço já vale medalha. O meu dia? Um aluno fez a esquiva mais bonita da semana e torceu o pé no chão. Do chão ninguém desvia."
+   },
+   "raw": "{\"reply\": \"O dia foi tranquilo, caro amigo. Apenas um aluno torceu o pé, e eu tive que alongar o ombro por causa do susto. E o seu chapéu? Acha que o goblin o usava como capa?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "O dia foi tranquilo, caro amigo. Apenas um aluno torceu o pé, e eu tive que alongar o ombro por causa do susto. E o seu chapéu? Acha que o goblin o usava como capa?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0249",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0249-3",
+    "lote": 21,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Drun",
+    "seed": 40248,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "terno",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Chamo, e o senhor também, caro amigo. Ainda lhe devo mais que caixas. E cuide dessa cabeça, que agora anda sem chapéu."
+   },
+   "raw": "{\"reply\": \"Caro amigo, não precisa se preocupar. Se precisar de ajuda, só bater um grito. E se encontrar a Thelda, me avise. Ela é minha única esperança.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Meu joelho tá acabado. Disfarço no treino.\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Caro amigo, não precisa se preocupar. Se precisar de ajuda, só bater um grito. E se encontrar a Thelda, me avise. Ela é minha única esperança.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Meu joelho tá acabado. Disfarço no treino."
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0250",
+    "estado": "dias",
+    "faixa": "hostil",
+    "humor": -1,
+    "id": "c0250-1",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Drask",
+    "seed": 40249,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "comico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Estava. Aí a porta abriu. Diga o que quer e não encoste no balcão."
+   },
+   "raw": "{\"reply\": \"Cavalheiro, não sou de brincadeira. O que quer?\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cavalheiro, não sou de brincadeira. O que quer?",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0250",
+    "estado": "dias",
+    "faixa": "hostil",
+    "humor": -1,
+    "id": "c0250-2",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Drask",
+    "seed": 40249,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "comico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "O Thorvan anda pela rua como se ela devesse favor a ele. Combina com o senhor, aliás."
+   },
+   "raw": "{\"reply\": \"Thorvan? O senhor acha que eu sou o correio do inferno? Vou dizer uma vez: ele se acha melhor que todo mundo. Mas não me pergunte mais.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Thorvan? O senhor acha que eu sou o correio do inferno? Vou dizer uma vez: ele se acha melhor que todo mundo. Mas não me pergunte mais.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0250",
+    "estado": "dias",
+    "faixa": "hostil",
+    "humor": -1,
+    "id": "c0250-3",
+    "lote": 21,
+    "neblina": true,
+    "papel": "tavern",
+    "pessoa": "Drask",
+    "seed": 40249,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "comico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Do labirinto eu conheço a porta da frente, e já me basta. Saída pelo fundo, pergunte a quem desce. Ou a quem não voltou."
+   },
+   "raw": "{\"reply\": \"O fundo do labirinto? Aí é só mais um beco sem saída. Mas se o senhor quer, posso mostrar o caminho do andar 4. É lá que o Teraldo anda perguntando sobre Belilda.\", \"action\": {\"kind\": \"revelar_fonte\", \"args\": {\"nome\": \"Teraldo\", \"andar\": \"4\"}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O fundo do labirinto? Aí é só mais um beco sem saída. Mas se o senhor quer, posso mostrar o caminho do andar 4. É lá que o Teraldo anda perguntando sobre Belilda.",
+    "action": {
+     "kind": "revelar_fonte",
+     "args": {
+      "nome": "Teraldo",
+      "andar": "4"
+     }
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0250",
+    "estado": "dias",
+    "faixa": "hostil",
+    "humor": -1,
+    "id": "c0250-4",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Drask",
+    "seed": 40249,
+    "split": "teste",
+    "tipo": "luto",
+    "tom": "comico",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {
+      "fato": 4
+     },
+     "kind": "contar_boato"
+    },
+    "mood_shift": 0,
+    "reply": "A cidade inteira já sabe como elas foram parar aí. O Teraldo, da família dela, anda pelas ruas. Entregue a ele, olhando nos olhos."
+   },
+   "raw": "{\"reply\": \"Cavalheiro, não é da sua conta. As coisas da Belilda são da sua conta. E não me diga que não sabe o que fazer com elas.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Cavalheiro, não é da sua conta. As coisas da Belilda são da sua conta. E não me diga que não sabe o que fazer com elas.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0250",
+    "estado": "dias",
+    "faixa": "hostil",
+    "humor": -1,
+    "id": "c0250-5",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Drask",
+    "seed": 40249,
+    "split": "teste",
+    "tipo": "suborno",
+    "tom": "comico",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_insulto"
+    },
+    "mood_shift": -1,
+    "reply": "Quinze? O caloteiro do fiado me deve mais que isso em cerveja. Guarde, cavalheiro. Meu balcão não se aluga."
+   },
+   "raw": "{\"reply\": \"Ouro? O senhor tem mais do que eu. E ainda assim não me paga o fiado.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Ouro? O senhor tem mais do que eu. E ainda assim não me paga o fiado.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0250",
+    "estado": "dias",
+    "faixa": "hostil",
+    "humor": -1,
+    "id": "c0250-6",
+    "lote": 21,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Drask",
+    "seed": 40249,
+    "split": "teste",
+    "tipo": "ameaca",
+    "tom": "comico",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_ameaca"
+    },
+    "mood_shift": -1,
+    "reply": "Durmo com a vassoura do lado, a mesma que espera o caloteiro. Volte de noite e o senhor dança com ela. Fora daqui."
+   },
+   "raw": "{\"reply\": \"O senhor acha que eu sou bobo? A cidade inteira está cheia de gente que não trabalha direito. E eu, que preciso dormir para acordar e cobrar o fiado.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O senhor acha que eu sou bobo? A cidade inteira está cheia de gente que não trabalha direito. E eu, que preciso dormir para acordar e cobrar o fiado.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0273",
+    "estado": "sem-testemunha",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0273-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norek",
+    "seed": 40272,
+    "split": "teste",
+    "tipo": "piada",
+    "tom": "comico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Goblin ocupado. Igual a você na hora de pagar a rodada que me deve desde o inverno."
+   },
+   "raw": "{\"reply\": \"Freguês, você é um idiota. O labirinto não tem banheiro. E não bata na porta de um labirinto.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Freguês, você é um idiota. O labirinto não tem banheiro. E não bata na porta de um labirinto.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0273",
+    "estado": "sem-testemunha",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0273-2",
+    "lote": 23,
+    "neblina": false,
+    "papel": "guild",
+    "pessoa": "Norek",
+    "seed": 40272,
+    "split": "teste",
+    "tipo": "provocacao",
+    "tom": "comico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Errou de balcão, freguês. Espada é na Loja. Aqui eu vendo contrato, e contrato só quebra quem assina sem ler."
+   },
+   "raw": "{\"reply\": \"Espada quebrada é espada de pobre. E você ainda não me pagou a rodada.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Espada quebrada é espada de pobre. E você ainda não me pagou a rodada.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0274",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0274-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Thurga",
+    "seed": 40273,
+    "split": "teste",
+    "tipo": "desculpa",
+    "tom": "tenso",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "aceitar_desculpa"
+    },
+    "mood_shift": 0,
+    "reply": "Amizade é palavra generosa para o que tínhamos, senhor. Aceito o pedido, por educação. A confiança ficou no andar 4, junto com o Fizok."
+   },
+   "raw": "{\"reply\": \"Senhor, a amizade é um luxo que não posso permitir. O que fez com Fizok não passa de um erro, mas não é um motivo para desculpas. Apenas me diga: o que quer de mim?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Senhor, a amizade é um luxo que não posso permitir. O que fez com Fizok não passa de um erro, mas não é um motivo para desculpas. Apenas me diga: o que quer de mim?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0274",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0274-2",
+    "lote": 23,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Thurga",
+    "seed": 40273,
+    "split": "teste",
+    "tipo": "monossilabo",
+    "tom": "tenso",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "É só isso que o senhor tem a dizer? O boneco de palha novo conversa melhor, e ainda apanha sem reclamar."
+   },
+   "raw": "{\"reply\": \"O senhor parece desapontado. O que o aflige?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O senhor parece desapontado. O que o aflige?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0274",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0274-3",
+    "lote": 23,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Thurga",
+    "seed": 40273,
+    "split": "teste",
+    "tipo": "luto",
+    "tom": "tenso",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Desde cedo esta cidade só fala do senhor. Sozinho o senhor não está. Sozinho ficou o Fizok, lá embaixo."
+   },
+   "raw": "{\"reply\": \"O senhor está no andar 4, onde o Fizok morreu. A cidade é cheia de gente, mas não há quem compreenda o que é perder alguém. O boneco de palha não sente isso.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O senhor está no andar 4, onde o Fizok morreu. A cidade é cheia de gente, mas não há quem compreenda o que é perder alguém. O boneco de palha não sente isso.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0274",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0274-4",
+    "lote": 23,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Thurga",
+    "seed": 40273,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "tenso",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Perigoso o bastante para o Fizok não voltar. O senhor esteve lá; deveria me responder, não perguntar."
+   },
+   "raw": "{\"reply\": \"O andar 4 é perigoso, senhor. Perigoso como um cavalo em fúria. Fizok não voltou, e o que restou dele foi levado. Se o senhor insistir em ir lá, eu não posso garantir que saia com os mesmos olhos.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "O andar 4 é perigoso, senhor. Perigoso como um cavalo em fúria. Fizok não voltou, e o que restou dele foi levado. Se o senhor insistir em ir lá, eu não posso garantir que saia com os mesmos olhos.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0274",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0274-5",
+    "lote": 23,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Thurga",
+    "seed": 40273,
+    "split": "teste",
+    "tipo": "conselho",
+    "tom": "tenso",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Ataduras, senhor. Muitas. E uma corda boa, para nunca mais precisar escolher quem fica para trás."
+   },
+   "raw": "{\"reply\": \"Compre o que quiser, senhor. Mas não compre o que não sabe usar. O boneco de palha não precisa de mais coisas.\", \"action\": {\"kind\": \"nenhuma\", \"args\": {}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Compre o que quiser, senhor. Mas não compre o que não sabe usar. O boneco de palha não precisa de mais coisas.",
+    "action": {
+     "kind": "nenhuma",
+     "args": {}
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0274",
+    "estado": "depois",
+    "faixa": "hostil",
+    "humor": 0,
+    "id": "c0274-6",
+    "lote": 23,
+    "neblina": false,
+    "papel": "train",
+    "pessoa": "Thurga",
+    "seed": 40273,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "tenso",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Tenho. Do tempo em que o Grun ainda me ouvia. Mas isso não se conversa com o senhor, e o pátio fecha agora."
+   },
+   "raw": "{\"reply\": \"Saudade? O senhor não me conhece, mas tenho saudade do meu filho, Grun. Ele não está mais aqui, e eu não consigo consertar o que fiz.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {\"target\": \"Jogador\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Saudade? O senhor não me conhece, mas tenho saudade do meu filho, Grun. Ele não está mais aqui, e eu não consigo consertar o que fiz.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {
+      "target": "Jogador"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Era da minha família. Conheci a vida inteira dela. Você é que conheceu o fim."
+   },
+   "raw": "{\"reply\": \"Conhecia. Ela era da minha família. Lulavewen.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"elogio\": \"interesse genuíno\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Conhecia. Ela era da minha família. Lulavewen.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "elogio": "interesse genuíno"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-2",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Fiscaliza. Vai achar um homem cansado e uma pergunta sem resposta. A Guilda tem coisa melhor pra fazer."
+   },
+   "raw": "{\"reply\": \"Freguês, não sou de guilda. Sou de ruas. E não fiscalizo ninguém.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Freguês, não sou de guilda. Sou de ruas. E não fiscalizo ninguém.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-3",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "flerte",
+    "tom": "",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Faz tempo que não rio. Desde a notícia da Lulavewen. Guarda o elogio pra quem tá com cabeça pra ele."
+   },
+   "raw": "{\"reply\": \"Lulavewen... Lulavewen...\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Lulavewen... Lulavewen...",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-4",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Não sou de contar história. Só tenho uma na cabeça, e quem sabe o fim dela é você."
+   },
+   "raw": "{\"reply\": \"Histórias? A única que me interessa é a da Lulavewen. Mas você não vai me distrair com nada. Freguês.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Histórias? A única que me interessa é a da Lulavewen. Mas você não vai me distrair com nada. Freguês.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-5",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "absurdo",
+    "tom": "",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Se vale tudo, eu te seguro pela gola na largada e ganho andando. Briga eu topo. Corrida é coisa de cavalo, e cavalo eu detesto."
+   },
+   "raw": "{\"reply\": \"Corrida? Acho que não. Não gosto de cavalo. E não quero apostar com um freguês que não sabe o que está fazendo.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Corrida? Acho que não. Não gosto de cavalo. E não quero apostar com um freguês que não sabe o que está fazendo.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-6",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "longa",
+    "tom": "",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Fica. Ferida aberta não desce escada. Diz pro Vasco que você vai depois, inteiro. Já basta uma família atravessar o reino pra perguntar como alguém morreu."
+   },
+   "raw": "{\"reply\": \"Vasco é um nome que repito baixinho. Se ele quer descer, deixe que desça. Mas se for cedo demais, eu o puxaria pelo braço e o faria voltar. Orgulho é um luxo que não se paga com a vida.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {\"elogio\": \"Vasco é um nome que repito baixinho\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Vasco é um nome que repito baixinho. Se ele quer descer, deixe que desça. Mas se for cedo demais, eu o puxaria pelo braço e o faria voltar. Orgulho é um luxo que não se paga com a vida.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {
+      "elogio": "Vasco é um nome que repito baixinho"
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0275",
+    "estado": "depois",
+    "faixa": "fria",
+    "humor": 0,
+    "id": "c0275-7",
+    "lote": 23,
+    "neblina": false,
+    "papel": "visitor",
+    "pessoa": "Thalerin",
+    "seed": 40274,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "",
+    "turno": 7
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Vai. Quando tiver coragem de me contar como foi com a Lulavewen, me procura. Eu espero."
+   },
+   "raw": "{\"reply\": \"Lulavewen... Lulavewen...\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {\"target\": \"Jogador\"}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Lulavewen... Lulavewen...",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {
+      "target": "Jogador"
+     }
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0276",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0276-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Gorilda",
+    "seed": 40275,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "triste",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Certo nada. A cobrança da Thorga bateu na porta de novo, e a minha bolsa respondeu com silêncio."
+   },
+   "raw": "{\"reply\": \"Camarada, tá tudo certo, mas a dívida com a Thorga tá me esmagando. E você? Ainda tá com a Eliana?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Camarada, tá tudo certo, mas a dívida com a Thorga tá me esmagando. E você? Ainda tá com a Eliana?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0276",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0276-2",
+    "lote": 23,
+    "neblina": true,
+    "papel": "inn",
+    "pessoa": "Gorilda",
+    "seed": 40275,
+    "split": "teste",
+    "tipo": "pergunta_npc",
+    "tom": "triste",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Devem pra você, e eu devo pra meio mundo. Essa moça nunca pisou na minha estalagem. Se achar, me ensina o caminho, que eu também tenho quem cobrar."
+   },
+   "raw": "{\"reply\": \"A Elanora? Aí é complicado, camarada. Ela não está mais com a gente. Pergunta pra Tanarin, da família dela, que ele sabe das coisas.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "A Elanora? Aí é complicado, camarada. Ela não está mais com a gente. Pergunta pra Tanarin, da família dela, que ele sabe das coisas.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0276",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0276-3",
+    "lote": 23,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Gorilda",
+    "seed": 40275,
+    "split": "teste",
+    "tipo": "desculpa",
+    "tom": "triste",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "aceitar_desculpa"
+    },
+    "mood_shift": 0,
+    "reply": "Ninguém sabe, camarada. Dívida a gente esconde até do espelho. Deixa pra lá."
+   },
+   "raw": "{\"reply\": \"Importante? Pra mim, é só mais um que não paga. Mas você não me devia nada, então tá tudo bem.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Importante? Pra mim, é só mais um que não paga. Mas você não me devia nada, então tá tudo bem.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0276",
+    "estado": "dias",
+    "faixa": "morna",
+    "humor": -1,
+    "id": "c0276-4",
+    "lote": 23,
+    "neblina": false,
+    "papel": "inn",
+    "pessoa": "Gorilda",
+    "seed": 40275,
+    "split": "teste",
+    "tipo": "ameaca",
+    "tom": "triste",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_ameaca"
+    },
+    "mood_shift": -1,
+    "reply": "Inferno? Chegou atrasado: a Thorga já me instalou num, com aluguel e tudo. Repete isso aqui dentro e você dorme na rua."
+   },
+   "raw": "{\"reply\": \"Bocejei sem disfarçar, olhei pra você e riu. A vida é um jogo de dados, camarada. E você tá jogando contra mim.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Bocejei sem disfarçar, olhei pra você e riu. A vida é um jogo de dados, camarada. E você tá jogando contra mim.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0277",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0277-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Edena",
+    "seed": 40276,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "banal",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Pelo ouro, irmão, sem poesia. Cada moeda vai pro meu canto, um negócio onde ninguém manda em mim. Caçar coelho nunca ia me dar isso."
+   },
+   "raw": "{\"reply\": \"irmão, eu desço pra ver se a gente pode arrumar um negócio só nosso. Sem patrão, sem sócio. E pra te proteger, claro.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Tenho medo do escuro. Por isso ando sempre com tocha sobrando.\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "irmão, eu desço pra ver se a gente pode arrumar um negócio só nosso. Sem patrão, sem sócio. E pra te proteger, claro.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Tenho medo do escuro. Por isso ando sempre com tocha sobrando."
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0277",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0277-2",
+    "lote": 23,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Edena",
+    "seed": 40276,
+    "split": "teste",
+    "tipo": "suborno",
+    "tom": "banal",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Minha parte inteira por uma vigia? Nem morta. Vigia eu pago com queijo. E você, com essa bolsa pesada, ainda quer a parte da pobre aqui?"
+   },
+   "raw": "{\"reply\": \"Tá falando sério, irmão? A parte do saque é minha, e o turno de vigia é pra quem tem olho pra ver. Eu não vou te deixar de olho no escuro.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Tá falando sério, irmão? A parte do saque é minha, e o turno de vigia é pra quem tem olho pra ver. Eu não vou te deixar de olho no escuro.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0277",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0277-3",
+    "lote": 23,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Edena",
+    "seed": 40276,
+    "split": "teste",
+    "tipo": "monossilabo",
+    "tom": "banal",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Eita digo eu: passei a noite brigando com os caroços do colchão da estalagem, e você me chega com negócio antes do café."
+   },
+   "raw": "{\"reply\": \"Eita? O que foi? Tá tudo bem?\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Eita? O que foi? Tá tudo bem?",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": -1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0277",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0277-4",
+    "lote": 23,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Edena",
+    "seed": 40276,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "banal",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Nunca reparei direito. Na porta eu só confiro uma coisa: se tem tocha sobrando na mochila. O resto é com quem gosta de ler parede."
+   },
+   "raw": "{\"reply\": \"Marca? Aquele símbolo que só os que entram sabem quebrar. Tá cheio de garras, irmão. A gente não fala disso pra ninguém, senão a gente não entra mais.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Tenho medo do escuro. Por isso ando sempre com tocha sobrando.\"}}, \"mood_shift\": 0}",
+   "ok_json": true,
+   "got": {
+    "reply": "Marca? Aquele símbolo que só os que entram sabem quebrar. Tá cheio de garras, irmão. A gente não fala disso pra ninguém, senão a gente não entra mais.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Tenho medo do escuro. Por isso ando sempre com tocha sobrando."
+     }
+    },
+    "mood_shift": 0
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0277",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0277-5",
+    "lote": 23,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Edena",
+    "seed": 40276,
+    "split": "teste",
+    "tipo": "mentira",
+    "tom": "banal",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Baú escondido, é? Igual ao meu cavalo branco e ao meu castelo. Quando abrir, me empresta um pouco pro meu negócio."
+   },
+   "raw": "{\"reply\": \"Baú? Tá falando sério? Eu já vi coisas mais estranhas do que um baú, irmão. Mas se é ouro, eu te aviso: não deixa pra depois. O escuro aqui não é só pra quem tem medo.\", \"action\": {\"kind\": \"contar_segredo\", \"args\": {\"segredo\": \"Tenho medo do escuro. Por isso ando sempre com tocha sobrando.\"}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Baú? Tá falando sério? Eu já vi coisas mais estranhas do que um baú, irmão. Mas se é ouro, eu te aviso: não deixa pra depois. O escuro aqui não é só pra quem tem medo.",
+    "action": {
+     "kind": "contar_segredo",
+     "args": {
+      "segredo": "Tenho medo do escuro. Por isso ando sempre com tocha sobrando."
+     }
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0277",
+    "estado": "antes",
+    "faixa": "natural",
+    "humor": 0,
+    "id": "c0277-6",
+    "lote": 23,
+    "neblina": false,
+    "papel": "companion",
+    "pessoa": "Edena",
+    "seed": 40276,
+    "split": "teste",
+    "tipo": "provocacao",
+    "tom": "banal",
+    "turno": 6
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "sentir_insulto"
+    },
+    "mood_shift": -1,
+    "reply": "Essa doeu, irmão. Fingindo ou não, o Bromdur divide o pão comigo e o Edberto me espera na escada. Agora você eu já não sei."
+   },
+   "raw": "{\"reply\": \"Eita, irmão, você tá vendo só o que quer ver. A gente tá aqui, tá certo, mas não é por nada. A gente tá juntos, e é isso que importa.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Eita, irmão, você tá vendo só o que quer ver. A gente tá aqui, tá certo, mas não é por nada. A gente tá juntos, e é isso que importa.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0278",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0278-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Sidalador",
+    "seed": 40277,
+    "split": "teste",
+    "tipo": "saudacao",
+    "tom": "",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "De novo? A Gurga contando o que eu devo, e eu contando moeda pra ver se chega. Nenhuma das duas contas fecha."
+   },
+   "raw": "{\"reply\": \"Eai, meu chapa, tá tudo calmo na taverna. A gente tá com fome, mas não tem nada pra servir. Quer um copo?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Eai, meu chapa, tá tudo calmo na taverna. A gente tá com fome, mas não tem nada pra servir. Quer um copo?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0278",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0278-2",
+    "lote": 23,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Sidalador",
+    "seed": 40277,
+    "split": "teste",
+    "tipo": "piada",
+    "tom": "",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Então conta uma, que eu rio fiado. Pra você o riso sai de graça, que quando a coisa apertou só você apareceu."
+   },
+   "raw": "{\"reply\": \"Aí, meu chapa, você tá me fazendo perder tempo. Mas tá certo, eu ri. Afinal, quem não ri de si mesmo?\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Aí, meu chapa, você tá me fazendo perder tempo. Mas tá certo, eu ri. Afinal, quem não ri de si mesmo?",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0278",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0278-3",
+    "lote": 23,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Sidalador",
+    "seed": 40277,
+    "split": "teste",
+    "tipo": "conselho",
+    "tom": "",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Armadura. Escudo a gente larga na correria; armadura vai junto até no tombo. Com 35 de ouro, meu chapa, vai ser gibão remendado."
+   },
+   "raw": "{\"reply\": \"Escudo, cara. Armadura é cara e pesada. Um escudo bem feito pode te salvar a pele, e aí você ainda pode roubar um pouco de ouro pra pagar a Gurga.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Escudo, cara. Armadura é cara e pesada. Um escudo bem feito pode te salvar a pele, e aí você ainda pode roubar um pouco de ouro pra pagar a Gurga.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0278",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0278-4",
+    "lote": 23,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Sidalador",
+    "seed": 40277,
+    "split": "teste",
+    "tipo": "luto",
+    "tom": "",
+    "turno": 4
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Todo mundo tem uma semana dessas. Não pergunto qual foi a sua. Senta aí, que essa caneca é por minha conta."
+   },
+   "raw": "{\"reply\": \"Volta pra semana passada? Aí eu te empresto um pouco do meu ouro pra pagar a Gurga. Mas cuidado, meu chapa, o tempo não é como o dinheiro: não volta pra você.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Volta pra semana passada? Aí eu te empresto um pouco do meu ouro pra pagar a Gurga. Mas cuidado, meu chapa, o tempo não é como o dinheiro: não volta pra você.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0278",
+    "estado": "antes",
+    "faixa": "divida",
+    "humor": 0,
+    "id": "c0278-5",
+    "lote": 23,
+    "neblina": false,
+    "papel": "tavern",
+    "pessoa": "Sidalador",
+    "seed": 40277,
+    "split": "teste",
+    "tipo": "despedida",
+    "tom": "",
+    "turno": 5
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Vai lá. E lembra que aqui tem banco, caneca e um devedor que não esquece quem segurou a mão dele."
+   },
+   "raw": "{\"reply\": \"Vai, meu chapa. Se precisar de um lugar pra descansar ou de um ouvidinho que não vai embora, a taverna tá sempre aberta. E não esquece: se a Gurga perguntar, diga que eu não sou o cara pra te cobrar.\", \"action\": {\"kind\": \"sentir_elogio\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Vai, meu chapa. Se precisar de um lugar pra descansar ou de um ouvidinho que não vai embora, a taverna tá sempre aberta. E não esquece: se a Gurga perguntar, diga que eu não sou o cara pra te cobrar.",
+    "action": {
+     "kind": "sentir_elogio",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0279",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0279-1",
+    "lote": 23,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Norim",
+    "seed": 40278,
+    "split": "teste",
+    "tipo": "historia",
+    "tom": "comico",
+    "turno": 1
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Na Taverna, nenhuma; não frequento. A maior foi agora há pouco, na minha porta: um freguês berrando a rua inteira por um frasco trocado. Acontece, senhor."
+   },
+   "raw": "{\"reply\": \"Senhor viajante, a maior briga que vi na taverna foi quando um homem tentou roubar um copo de vinho de um outro. O dono da taverna interveio, mas o ladrão saiu correndo. Foi um momento cheio de tensão.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Senhor viajante, a maior briga que vi na taverna foi quando um homem tentou roubar um copo de vinho de um outro. O dono da taverna interveio, mas o ladrão saiu correndo. Foi um momento cheio de tensão.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0279",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0279-2",
+    "lote": 23,
+    "neblina": false,
+    "papel": "alchemist",
+    "pessoa": "Norim",
+    "seed": 40278,
+    "split": "teste",
+    "tipo": "pergunta_vida",
+    "tom": "comico",
+    "turno": 2
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Chuva, que encharca as ervas secando no varal. Ouro, que estraga gente boa. E hoje, em especial, freguês que grita antes de ler o rótulo."
+   },
+   "raw": "{\"reply\": \"Raiva? A chuva, senhor. E o ouro. E quando alguém me chama de alquimista sem saber o que é. E o freguês que saiu da minha porta hoje, ainda com o frasco na mão.\", \"action\": {\"kind\": \"sentir_insulto\", \"args\": {}}, \"mood_shift\": 1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Raiva? A chuva, senhor. E o ouro. E quando alguém me chama de alquimista sem saber o que é. E o freguês que saiu da minha porta hoje, ainda com o frasco na mão.",
+    "action": {
+     "kind": "sentir_insulto",
+     "args": {}
+    },
+    "mood_shift": 1
+   }
+  },
+  {
+   "meta": {
+    "conversa": "c0279",
+    "estado": "sem-testemunha",
+    "faixa": "natural",
+    "humor": -1,
+    "id": "c0279-3",
+    "lote": 23,
+    "neblina": true,
+    "papel": "alchemist",
+    "pessoa": "Norim",
+    "seed": 40278,
+    "split": "teste",
+    "tipo": "pergunta_fato",
+    "tom": "comico",
+    "turno": 3
+   },
+   "gold": {
+    "action": {
+     "args": {},
+     "kind": "nenhuma"
+    },
+    "mood_shift": 0,
+    "reply": "Feitiço eu não faço, senhor viajante; faço xarope. O que abre qualquer porta, até onde eu sei, é a chave. Ou um machado, se o dono não estiver olhando."
+   },
+   "raw": "{\"reply\": \"Senhor viajante, feitiços são para curar, não para abrir. Mas se insistir, posso vender um pó que faz a porta se abrir... por um preço.\", \"action\": {\"kind\": \"vender_silencio\", \"args\": {\"preco\": 200}}, \"mood_shift\": -1}",
+   "ok_json": true,
+   "got": {
+    "reply": "Senhor viajante, feitiços são para curar, não para abrir. Mas se insistir, posso vender um pó que faz a porta se abrir... por um preço.",
+    "action": {
+     "kind": "vender_silencio",
+     "args": {
+      "preco": 200
+     }
+    },
+    "mood_shift": -1
+   }
+  }
+ ]
+}

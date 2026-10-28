@@ -1,0 +1,142 @@
+[
+ {
+  "ok": true,
+  "kind": true,
+  "mood": true,
+  "reply": "Bom dia, caro amigo. Dormi como um pedra. E você? Ainda não me o que está fazendo?",
+  "gold": "Dormi feito pedra. Acordei, peguei o martelo bom, e o cabo partiu no primeiro golpe. O dia já começou de luto, caro amigo."
+ },
+ {
+  "ok": true,
+  "kind": true,
+  "mood": true,
+  "reply": "A que passou ontem. Pus um balde no quarto três e baixei o preço.",
+  "gold": "Não guardo história velha, senhor. Guardo lençol. O único temporal que me importa está pingando no quarto três."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Ah, meio bem, você tá vendo isso? A cidade tá cheia de carroças, e o vento tá derrubando tudo. Acho que tá mais forte do que o normal. Vou ver se consigo pegar um pedaço de pão pra você, tá?",
+  "gold": "Derrubou a carroça de maçã do mercado, eu vi daqui! O homem correndo atrás de fruta rua abaixo. Entra, meu bem, que aqui dentro só cai aluno."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": false,
+  "reply": "Tem, camarada. A guilda tem um monte de gente pra conhecer. Mas eu tô mais preocupado com o que devo pra Zarra. Você já ouviu falar dela?",
+  "gold": "A Sedille, que entende do assunto. Rurik e Elaria andam de nariz empinado. E da Gorilda, confere cada palavra duas vezes."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Mentira? Tá meio bravo, meu velho. Mas eu vi. E não vou esquecer. A Trelga não tá mais com você. E o que você fez com as coisas dela, eu vi. E não vou esquecer.",
+  "gold": "Mentira nada. Eu tava a dois passos. Vi sua mão na bolsa dela antes de ela esfriar."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "ConheÉ, freguês. Ela era da minha família. Me trouxe aqui. Só isso.",
+  "gold": "Era da minha família. Conheci a vida inteira dela. Você é que conheceu o fim."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Armadura, claro. Escudo é pra quem não tem jeito. Mas se for pra lutar, armadura é o jeito. E você? Tá pra luta ou pra fugir?",
+  "gold": "Armadura. Escudo a gente larga na correria; armadura vai junto até no tombo. Com 35 de ouro, meu chapa, vai ser gibão remendado."
+ },
+ {
+  "ok": true,
+  "kind": true,
+  "mood": true,
+  "reply": "Boa noite, senhor. Dorme bem, e que o sono não seja pesado. Amanhã, se quiser, troco os lençóis de novo.",
+  "gold": "Vou tentar. O Shizok, meu primo, anda doente longe daqui, e eu fico contando chave. Boa noite."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Chorar sozinho? Tá com medo do escuro? Eu também tenho medo. Mas não digo pra ninguém",
+  "gold": "Acontece. Lá embaixo a gente engole tudo, e o corpo cobra depois, no quarto. Chorou, dormiu, acordou. Já é mais que muita gente."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": false,
+  "reply": "O senhor está bem? A cidade fala do que aconteceu lá embaixo. A Aldonça busca notícias. A senhora não quer falar disso?",
+  "gold": "Boa noite, comandante. Se veio buscar companhia, sente-se. Conversa, ainda não sei se tenho."
+ },
+ {
+  "ok": true,
+  "kind": true,
+  "mood": false,
+  "reply": "Finge? O senhor me chama de cavalheiro, mas não mea o que é. A guilda não é lugar pra fingir, senhor.",
+  "gold": "Possível. Mas fingem bem, e eu agradeço o esforço. Com o senhor ninguém se dá nem esse trabalho."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Primeiro, um quarto pra você. Depois, o que quiser. Mas não mea o que eu compro pra você, que eu já te dei um quarto pra dois.",
+  "gold": "Com cem? Cama e comida antes de espada, meu chapa. Espada com dono cansado não corta nada. E aqui você dorme num quarto só seu, prometo."
+ },
+ {
+  "ok": true,
+  "kind": true,
+  "mood": true,
+  "reply": "Minha infância? Era tudo de ordem, senhor. Meu pai era guarda, e a mãe, Hulda, ensinava a mim a importância da glória. Assobio até agora, como fazia na praça.",
+  "gold": "De pé antes do sol, botas engraxadas, e minha mãe, a Hulda, conferindo cada fivela. Infância de guarda, senhor. O resto eu conto amanhã: estou guardando as lanças."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Sujeira? Aí é que você meou. O chão daqui é limpo como um olho de gato. Mas, já que pediu, vou deixar passar. Só não mea o que fez lá embaixo, que eu já ouvi falar.",
+  "gold": "Barro de bota sai com balde d'água. O que contam da Rasha não sai com balde nenhum. Pelo chão, tá perdoado."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": false,
+  "reply": "Estimadíssimo, a lua é só um pedaço de pedra. Mas se o senhor quer, posso contar a lenda do que tem lá dentro.",
+  "gold": "Não faço ideia, estimadíssimo. Talvez uma porta, como a que me aparece em sonho toda noite. Mas aí já é delírio de taverneiro cansado."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Falar a língua dos dragões? Eu só entendo o que a Eliana fala quando ela chora. Mas se for pra conversar com bicho, eu uso a língua do povo. E você, querido, não fala com bicho ou com gente?",
+  "gold": "Falo a língua do campo, a da papelada e a dos bêbados depois da meia-noite. Dragão nunca veio assinar contrato. Como foi que você conversou com o seu?"
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Não, estimado. A memória não é feita de ouro. Mas se quiser, posso lhe vender um pedaço de minha história, por 10 de ouro. Afinal, o que é mais valioso?",
+  "gold": "Memória não se compra aqui, e ouro eu nem gosto de pegar. O que falam do senhor e da Valira a cidade toda já ouviu."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Segredo antigo? Eu? Não tenho. Mas se quiser, conto o que aconteceu no andar 4. Mas cuidado, aventureiro, não é um segredo que eu não quero lembrar.",
+  "gold": "Segredo antigo, logo eu? O mais velho que guardo é a receita do caldo de feijão, e essa não sai nem com juros. O resto mora neste molho de chaves."
+ },
+ {
+  "ok": true,
+  "kind": true,
+  "mood": true,
+  "reply": "Xau, meu amigo. O dia tá quente, e a rua tá cheia de carroças. Quer um chá de folha amarga? Não cura nada, mas esquenta a mão.",
+  "gold": "Vai. E come alguma coisa no caminho, que tristeza de barriga vazia pesa o dobro."
+ },
+ {
+  "ok": true,
+  "kind": false,
+  "mood": true,
+  "reply": "Sou de fora, senhor. Vim de longe, estimadíssimo. E trouxe consigo a lembrança do Furkak.",
+  "gold": "De fora, e de longe. Vim de carroça, que cavalo eu não monto nem por promessa. Deixei o Zirnar em casa e vim pelo Furkak."
+ }
+]

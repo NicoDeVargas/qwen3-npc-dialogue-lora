@@ -1,0 +1,788 @@
+{
+	"falas": {
+		"c0171": [
+			{
+				"jogador": "bom dia, Neviveris. dormiu bem?",
+				"modo": "vivo",
+				"segundos": 3.491,
+				"texto": "Bom dia, senhor. Dormi pouco: quebrei o meu martelo bom hoje cedo, e o cabo partiu no meio do golpe."
+			},
+			{
+				"jogador": "meu cavalo é mais rápido que qualquer coisa nesse reino",
+				"modo": "vivo",
+				"segundos": 3.872,
+				"texto": "Então o senhor é o meu novo hóspede, que eu não quero na minha loja. Mas não precisa correr, que o senhor já veio escorregar na lama na frente da cidade inteira."
+			},
+			{
+				"jogador": "já viu algo estranho lá embaixo?",
+				"modo": "vivo",
+				"segundos": 3.897,
+				"texto": "Lá embaixo eu não piso, senhor. Do reino das sombras só conheço o que volta consertado, e isso é aqui. Estranho eu vi um: o senhor escorregando."
+			}
+		],
+		"c0211": [
+			{
+				"jogador": "quantos anos vc tem? se puder dizer rs",
+				"modo": "vivo",
+				"segundos": 2.92,
+				"texto": "Não sei, chefe. Hoje nem o meu nome me vem fácil: o da Ferela anda mais alto."
+			},
+			{
+				"jogador": "Dorena, se vc fosse um tesouro eu nem precisava descer o labirinto",
+				"modo": "vivo",
+				"segundos": 3.518,
+				"texto": "Tesouro eu sou, e ainda assim desço de braço aberto pra você. Obrigada. Só não usa isso no andar 4."
+			},
+			{
+				"jogador": "não vai ter guarda nenhum pra te ajudar quando eu voltar",
+				"modo": "vivo",
+				"segundos": 3.588,
+				"texto": "Guarda, aqui em cima, não tem. Mas eu sei descer sozinha, e você também. Se tiver medo, diga. Eu fico."
+			},
+			{
+				"jogador": "vc sabe se tem algum jeito de tirar cheiro de gosma de monstro da roupa? pq eu esfreguei com sabão, deixei de molho, botei no sol, passei erva, e continua fedendo, e agora ninguém senta do meu lado na taverna, e eu tô começando a achar que vou ter que jogar fora minha única capa boa",
+				"modo": "vivo",
+				"segundos": 3.372,
+				"texto": "Joga fora, então. Capa fedida não se lava, chefe. Mas pelo menos você tem uma. A Ferela não tinha nem essa."
+			},
+			{
+				"jogador": "foi mal ter roubado sua parte do ouro, vou devolver",
+				"modo": "vivo",
+				"segundos": 3.315,
+				"texto": "Aceito, mas o ouro não é meu. Era dela, da Ferela. Devolve pro Fermar, que é da família dela."
+			},
+			{
+				"jogador": "qual vai ser o tempo daqui a cem anos?",
+				"modo": "vivo",
+				"segundos": 2.944,
+				"texto": "Não sei. Hoje não sei nem o tempo do dia. Mas se chover, eu agradeço."
+			},
+			{
+				"jogador": "te vejo na entrada do labirinto amanhã cedo",
+				"modo": "vivo",
+				"segundos": 3.014,
+				"texto": "Vou estar. E traz a Ferela junto, chefe. Se não puder, traz alguém."
+			}
+		],
+		"c0212": [],
+		"c0213": [
+			{
+				"jogador": "boa noite, Therda. posso sentar aqui?",
+				"modo": "vivo",
+				"segundos": 3.141,
+				"texto": "Boa noite, senhor. Sente. Só não entre no meu espaço de tamborilar, que já tô quase no limite hoje."
+			},
+			{
+				"jogador": "o goblin me perguntou o caminho da saída. falei \"se eu soubesse tava aqui?\" kkkk",
+				"modo": "vivo",
+				"segundos": 3.553,
+				"texto": "Riso daqui sai quase sempre do forasteiro. A saída de verdade não se pergunta a um goblin, nobre forasteiro. Pergunte a quem voltou."
+			},
+			{
+				"jogador": "tem alguma novidade da estrada?",
+				"modo": "vivo",
+				"segundos": 4.245,
+				"texto": "Novidade da estrada, não sei dizer. Chegou uma carta com a letra de minha mãe, Balda, e o guarda veio fazer pergunta duas vezes hoje. Comigo, hoje, nada é bom sinal."
+			},
+			{
+				"jogador": "devo me alistar na guerra do norte?",
+				"modo": "vivo",
+				"segundos": 3.413,
+				"texto": "Guerra do norte eu não conheço nem a letra da letra. A Guilda só manda gente para a estrada, e aqui tem formulário pra pedir formulário."
+			},
+			{
+				"jogador": "vc tem cheiro de quem dormiu no estábulo",
+				"modo": "vivo",
+				"segundos": 4.094,
+				"texto": "Cheiro de estábulo é coisa de quem chega de manhã cedo, senhor. Eu durmo em cama, e o cheiro que o senhor percebe é o da tinta do formulário."
+			},
+			{
+				"jogador": "quem foi o último que discutiu com o Brenur?",
+				"modo": "vivo",
+				"segundos": 6.515,
+				"texto": "Esse nome não me diz nada, senhor. A última gente que discutiu comigo foi o guarda, e ele ainda está fazendo pergunta."
+			}
+		],
+		"c0214": [
+			{
+				"jogador": "qual foi a pior tempestade que já pegou essa cidade?",
+				"modo": "vivo",
+				"segundos": 3.386,
+				"texto": "Nunca foi minha cidade. Fui guarda e vi chuva que derrubava telhado, e o telhado do quarto três está fazendo isso agora."
+			},
+			{
+				"jogador": "sei onde tá o tesouro perdido do labirinto, mas é segredo",
+				"modo": "vivo",
+				"segundos": 2.778,
+				"texto": "Segredo comigo não se guarda. Quarto, sim. O meu tem um hóspede só."
+			},
+			{
+				"jogador": "minha mão não para de tremer desde a última descida",
+				"modo": "vivo",
+				"segundos": 2.945,
+				"texto": "Calma não se compra. Tenho um balde no quarto três, se o tremor não espalhar a água."
+			},
+			{
+				"jogador": "qual o nome da minha mãe?",
+				"modo": "vivo",
+				"segundos": 2.947,
+				"texto": "Não sei. E o senhor, de tão novo na cidade, nem me diz o nome, imagino."
+			},
+			{
+				"jogador": "Então, deixa eu te contar. Ontem à noite não consegui dormir, fiquei rolando na cama ouvindo o vento bater na janela, e comecei a pensar na minha vida antes de vir pra cá, na minha vila, nas pessoas, e me deu uma tristeza grande. Hoje acordei melhor, mas ainda com aquele aperto. Você já sentiu isso alguma vez?",
+				"modo": "vivo",
+				"segundos": 4.024,
+				"texto": "Já. Meu filho, Balasar, piorou. Fico acordada ouvindo o vento e penso nele. Tristeza não se resolve com conversa, cavalheiro. Resolve com remédio."
+			}
+		],
+		"c0215": [
+			{
+				"jogador": "boa noite! dia longo hoje, nem te conto",
+				"modo": "vivo",
+				"segundos": 3.446,
+				"texto": "Longo pra você, forasteiro, chega aqui com um gato no meu banco. Senta onde a gente não bater. E conta, que eu gosto de ouvir."
+			},
+			{
+				"jogador": "as fadas daqui são de boa ou é melhor ficar longe?",
+				"modo": "vivo",
+				"segundos": 3.142,
+				"texto": "Fada? Aqui só tem aluno e chão. Se tem fada, é a do gato, e ela já me pegou o banco."
+			},
+			{
+				"jogador": "até mais",
+				"modo": "vivo",
+				"segundos": 3.043,
+				"texto": "Até. Senta longe do gato amanhã, freguês, que ele já me roubou o dia."
+			}
+		],
+		"c0216": [
+			{
+				"jogador": "como q tá a vida?",
+				"modo": "vivo",
+				"segundos": 3.097,
+				"texto": "Tão boa que só você lembrou do meu aniversário! Cheira um frasco, faz cara feia e acha que sou eu."
+			},
+			{
+				"jogador": "desculpa ter sido tão chato esses dias",
+				"modo": "vivo",
+				"segundos": 3.457,
+				"texto": "Chato? Você veio de uma cidade inteira sem o Ferberto. Eu só cheiro frasco. Sente aí, que hoje eu pago a conversa."
+			},
+			{
+				"jogador": "olha bem pra minha cara. eu tô brincando?",
+				"modo": "vivo",
+				"segundos": 3.353,
+				"texto": "Olho bem, e não tô com medo nenhum. Mas se tá brincando, não é brincadeira de hoje, que eu já perdi o meu."
+			},
+			{
+				"jogador": "tem goblin no 4 ainda ou já limparam?",
+				"modo": "vivo",
+				"segundos": 3.636,
+				"texto": "Goblin? Eu só conheço o 4 pelo cheiro de quem volta dele: sujo, calado e com um a menos. Se tem goblin, tá lá embaixo."
+			}
+		],
+		"c0217": [
+			{
+				"jogador": "quanto custa pra vc ficar de boca fechada?",
+				"modo": "vivo",
+				"segundos": 3.285,
+				"texto": "Boca fechada sobre o quê, senhor viajante? Se é sobre quem andou pela cidade, o guarda já está fazendo essa conta e não pagou."
+			},
+			{
+				"jogador": "quem te ensinou tudo que vc sabe?",
+				"modo": "vivo",
+				"segundos": 3.901,
+				"texto": "Uma academia de goteira e um primo, o Tavirilas, que me emprestava livro quando eu não tinha moeda. Ninguém ensinou a mentir; eu aprendi sozinha."
+			},
+			{
+				"jogador": "vc já pensou em cobrar pela sua cara feia? ficava rico rs, brincadeira",
+				"modo": "vivo",
+				"segundos": 2.823,
+				"texto": "Cobro pela cara feia, sim. Ajudam os clientes a desistir antes de comprar."
+			},
+			{
+				"jogador": "já fui no andar 20 mano, lá é tranquilo",
+				"modo": "vivo",
+				"segundos": 3.571,
+				"texto": "O andar vinte, e eu nunca tive coragem de descer nem o porão. Tranquilo, aliás, o guarda nunca chegou lá. Curioso."
+			},
+			{
+				"jogador": "amanhã tem feira, bora junto?",
+				"modo": "vivo",
+				"segundos": 3.345,
+				"texto": "Amanhã eu vou cheirar a erva que comprei hoje, senhor. Feira é coisa de quem não tem botica no caminho."
+			},
+			{
+				"jogador": "o que eu faço com as coisas do Valardo?",
+				"modo": "vivo",
+				"segundos": 7.132,
+				"texto": "Coisa de quem não passou por esta botica eu não adivinho, senhor. Mas se for erva, leve aqui; se for freguês, fique longe dele."
+			},
+			{
+				"jogador": "o Casardo falou que vc é mão de vaca, e pelo visto tem razão",
+				"modo": "vivo",
+				"segundos": 3.336,
+				"texto": "Mão de vaca é quem cobra caro, senhor. E a senhora me deve um frasco, não um nome."
+			}
+		],
+		"c0218": [
+			{
+				"jogador": "nossa, o vento lá fora tá derrubando tudo",
+				"modo": "vivo",
+				"segundos": 3.492,
+				"texto": "Derrubou a carroça de frutas e espalhou a conversa do mercado na rua. Meu bem, entra antes que a chuva de cebola caia em você."
+			},
+			{
+				"jogador": "ok",
+				"modo": "vivo",
+				"segundos": 3.603,
+				"texto": "Ok pra quê? Pra treinar? Hoje eu não ensino, que dia de mercado não tem aluno. Mas amanhã cedo, com esse vento atrás, tem aula nova."
+			},
+			{
+				"jogador": "tem algum trabalho pra mim por aqui?",
+				"modo": "vivo",
+				"segundos": 3.034,
+				"texto": "Trabalho? A Darda tem um, e é pra ela pagar em dia. Se for isso que você quer, não me peça."
+			},
+			{
+				"jogador": "tô indo nessa",
+				"modo": "vivo",
+				"segundos": 3.647,
+				"texto": "Vai com a Eliana e o Berando, que pelo menos eles sabem o que carregam. E volta pra mim amanhã cedo, que eu tenho aula pra você."
+			}
+		],
+		"c0219": [],
+		"c0220": [
+			{
+				"jogador": "o Bomin passou aqui ontem? alto, de capa",
+				"modo": "vivo",
+				"segundos": 3.091,
+				"texto": "Ninguém com esse nome passou por este balcão, e eu leio tudo. Se veio atrás do senhor, mande chamar."
+			}
+		],
+		"c0242": [
+			{
+				"jogador": "quem construiu o labirinto e pq?",
+				"modo": "vivo",
+				"segundos": 4.066,
+				"texto": "Isso não consta em nenhum livro de alquimia, senhor. Talvez a resposta valha uma fita dessas. Eu só sei que o mercado vende erva rara e que os degraus não desistem de ninguém."
+			},
+			{
+				"jogador": "deixa eu adivinhar: com uns 50 de ouro a memória melhora?",
+				"modo": "vivo",
+				"segundos": 3.651,
+				"texto": "A memória não compra poção, senhor, e a minha não vende nem a fita. Guarde as moedas: eu não precisarei delas."
+			},
+			{
+				"jogador": "tá tudo bem? vc parece que não dorme há dias",
+				"modo": "vivo",
+				"segundos": 3.645,
+				"texto": "Não durmo por causa do Ulfar, senhor. Não acredito que o senhor o deixou lá embaixo, e não acredito que foi o senhor que voltou."
+			},
+			{
+				"jogador": "até amanhã",
+				"modo": "vivo",
+				"segundos": 2.962,
+				"texto": "Até amanhã, senhor. Se o senhor precisar de poção, a porta está aberta."
+			}
+		],
+		"c0243": [
+			{
+				"jogador": "merda de serviço, nunca vi coisa igual",
+				"modo": "vivo",
+				"segundos": 3.997,
+				"texto": "Merda de serviço, aqui no pátio é o que os alunos dizem quando tropeçam no escudo. O meu pai, Seneveren, sempre dizia que a gente aprende com a merda. Ainda não aprendi."
+			},
+			{
+				"jogador": "me fala tudo que vc sabe sobre a Shana",
+				"modo": "vivo",
+				"segundos": 3.085,
+				"texto": "Shana? Nunca ouvi falar. Pergunta pra quem chegou agora, que eu não cheguei com essa daqui."
+			},
+			{
+				"jogador": "o que eu faço com o ouro que sobrou?",
+				"modo": "vivo",
+				"segundos": 3.972,
+				"texto": "Guarda metade, forasteiro. Quer dizer, não precisa contar: eu guardo as minhas metades de ouro e não perco uma. Mas ouro que sobra aqui dentro é moeda de aluno."
+			},
+			{
+				"jogador": "fui covarde. pronto, falei",
+				"modo": "vivo",
+				"segundos": 3.852,
+				"texto": "Falar é fácil. Eu também já fui, numa briga que meu pai me ensinou a não ter. E o meu pai, Seneveren, ainda não me perdoou. Pronto, falei."
+			},
+			{
+				"jogador": "eu era general do exército antes de vir pra cá",
+				"modo": "vivo",
+				"segundos": 3.27,
+				"texto": "Então me ensine a dar ordem, general. Eu só ensino a não cair de cara no chão."
+			},
+			{
+				"jogador": "tem alguma música que conta história? canta aí",
+				"modo": "vivo",
+				"segundos": 3.593,
+				"texto": "Música eu não canto. Canto a história do meu pai, se ele me deixar. E ele ainda não me deixou, e eu não canto pra quem me repreende."
+			}
+		],
+		"c0244": [
+			{
+				"jogador": "bom dia, cheguei cedo hoje rs",
+				"modo": "vivo",
+				"segundos": 3.481,
+				"texto": "Cedo, e já deu trabalho: a Guilda mandou mais papel, e tem formulário pra pedir formulário. Senta, que eu te devo uma."
+			},
+			{
+				"jogador": "tem alguém aqui que eu deveria conhecer?",
+				"modo": "vivo",
+				"segundos": 3.457,
+				"texto": "A Terilda e o Moroth, do seu grupo. A Terilda fala pouco, mas conta quando fala. O Moroth espalha tudo que você conta, e a Armira também."
+			},
+			{
+				"jogador": "talvez",
+				"modo": "vivo",
+				"segundos": 3.231,
+				"texto": "Talvez é resposta de formulário, camarada. Preenche com o que der, que eu mal preencho os meus."
+			},
+			{
+				"jogador": "nossa nem te conto, hoje cedo eu tava treinando no pátio e um bárbaro gigante me desafiou, eu claro aceitei pq sou burro, e ele me jogou longe umas cinco vezes seguidas, todo mundo rindo, mas na sexta vez eu consegui derrubar ele, e ele riu e me pagou uma cerveja, acho que fiz um amigo, ou um inimigo, não sei ainda",
+				"modo": "vivo",
+				"segundos": 4.612,
+				"texto": "Cinco e depois a sexta. Conta isso pra Sora quando ela cobrar, que ela gosta de ouvir o quanto você tá de dívida. E a cerveja é inimigo, só que bebe de graça. Eu ficava do lado do bárbaro."
+			},
+			{
+				"jogador": "me perdoa por ter duvidado de vc",
+				"modo": "vivo",
+				"segundos": 3.972,
+				"texto": "Perdoar é com a Guilda, que se perde mais rápido que eu. E não duvidava de mim: ajudou um sujeito que ninguém ajudou. O resto é conversa de pátio."
+			},
+			{
+				"jogador": "vou descobrir onde vc dorme",
+				"modo": "vivo",
+				"segundos": 3.914,
+				"texto": "Descobre, e me lembra quando eu tiver cobrado a dívida com a Sora. Eu durmo longe do perigo, e você já me trouxe de volta mais uma vez."
+			}
+		],
+		"c0245": [
+			{
+				"jogador": "sabe pq o goblin não entra na taverna? pq ele já vive no fundo do poço kkkk",
+				"modo": "vivo",
+				"segundos": 3.371,
+				"texto": "Pra mim, o poço é o chão da minha porta. E a lama em que você escorregou, sujeito, ainda não saiu da cabeça."
+			},
+			{
+				"jogador": "vc sabe se a guilda tá contratando?",
+				"modo": "vivo",
+				"segundos": 3.383,
+				"texto": "Sei. Contratando gente que não escorrega na lama. Eu não contrato ninguém, já tenho o suficiente pra me chamar de dona."
+			},
+			{
+				"jogador": "quer dançar comigo? não sei dançar, mas a gente aprende junto",
+				"modo": "vivo",
+				"segundos": 3.447,
+				"texto": "Aprender? Eu aprendi a contar chave, não a dançar. E você me ensina a dançar, que eu ensino a não escorregar."
+			},
+			{
+				"jogador": "uma moeda pra cada pergunta que vc responder, que tal?",
+				"modo": "vivo",
+				"segundos": 3.029,
+				"texto": "Moeda eu aceito, mas a pergunta eu escolho. Vai ver se eu te devo alguma coisa, não?"
+			}
+		],
+		"c0246": [
+			{
+				"jogador": "boa tarde",
+				"modo": "composto",
+				"segundos": 6.743,
+				"texto": "Até que enfim lhe conheço! Eu sou Edilda. Ainda não me acostumei a lhe ver sem Maroth."
+			},
+			{
+				"jogador": "me empresta 10 de ouro pra eu comprar um castelo",
+				"modo": "vivo",
+				"segundos": 3.519,
+				"texto": "Cinquenta, e o castelo só vem com o senhor. O resto, não. Mas emprestado não, senhor; o senhor já me deve uma."
+			},
+			{
+				"jogador": "desço hoje ou espero amanhã?",
+				"modo": "vivo",
+				"segundos": 3.347,
+				"texto": "Amanhã, estimado. Se descer hoje, eu finjo que não vi. Se voltar, a cerveja já tá quente."
+			},
+			{
+				"jogador": "lembra do meu aniversário? que dia é?",
+				"modo": "vivo",
+				"segundos": 3.392,
+				"texto": "Não lembro, e não guardo data. Mas aniversário se comemora com presente, e o senhor não me trouxe nenhum hoje."
+			}
+		],
+		"c0247": [
+			{
+				"jogador": "bom dia!",
+				"modo": "vivo",
+				"segundos": 2.872,
+				"texto": "Bom dia. Dia de mercado, e a rua é carroça. Sente-se. Quer o quê?"
+			},
+			{
+				"jogador": "na minha terra eu sou uma lenda viva, cantam música sobre mim",
+				"modo": "vivo",
+				"segundos": 2.989,
+				"texto": "Música, então, não. Aqui não canta ninguém. Se quiser, invente uma. O povo gosta."
+			},
+			{
+				"jogador": "seu pão tá mais duro que pedra de masmorra",
+				"modo": "vivo",
+				"segundos": 3.188,
+				"texto": "É de ontem, senhor. Mas pão duro não estraga, e pedra de masmorra não apodrece. Escolha."
+			},
+			{
+				"jogador": "vou nessa, o grupo tá me esperando",
+				"modo": "vivo",
+				"segundos": 2.935,
+				"texto": "Vá. E obrigado por não pedir música, que hoje já tô sem paciência."
+			}
+		],
+		"c0248": [
+			{
+				"jogador": "vc tem irmãos?",
+				"modo": "vivo",
+				"segundos": 3.452,
+				"texto": "Não. Tenho uma filha, Nelasiriel. Sumiu faz tempo. Um viajante disse que viu alguém parecido com ela pros lados da serra."
+			},
+			{
+				"jogador": "lembra daquela vez no andar 4? conta de novo, quero rir",
+				"modo": "vivo",
+				"segundos": 2.936,
+				"texto": "Contar o quê? Eu vi você mexendo nos bolsos da Lithassa. Não tem graça nenhuma pra mim."
+			},
+			{
+				"jogador": "mentira",
+				"modo": "vivo",
+				"segundos": 3.038,
+				"texto": "Mentira é o que eu falo? Então você mente bem. Fala o que quer dizer, meu velho."
+			},
+			{
+				"jogador": "se a gente morrer lá embaixo eu fico com sua bota, já tô avisando",
+				"modo": "vivo",
+				"segundos": 2.606,
+				"texto": "Guarda as duas, então. Você vai precisar de ambas."
+			}
+		],
+		"c0249": [
+			{
+				"jogador": "se eu soubesse que tinha alguém assim na cidade tinha chegado antes",
+				"modo": "vivo",
+				"segundos": 3.345,
+				"texto": "Antes ou depois, caro amigo, eu agradeço igual. E a senhora carrega caixa melhor que muita gente daqui."
+			},
+			{
+				"jogador": "bom, já que vc perguntou como foi meu dia, foi assim: acordei, caí da cama, tomei café frio, briguei com a Irinda, fizemos as pazes, descemos no labirinto, achamos três goblins, matamos dois, o terceiro fugiu com meu chapéu, subimos, comi uma sopa ruim e vim pra cá. resumindo: perdi um chapéu. e vc, como foi o seu?",
+				"modo": "vivo",
+				"segundos": 3.885,
+				"texto": "Chapéu perdido se encontra, senhor. O meu dia foi esquivar de um aluno que torceu o pé no treino de esquiva. Esquivou de tudo, menos do chão."
+			},
+			{
+				"jogador": "fui, qualquer coisa me chama",
+				"modo": "vivo",
+				"segundos": 3.176,
+				"texto": "Vá, e obrigado pela ajuda de ontem. Se precisar de braço, eu apareço, mesmo sem chapéu."
+			}
+		],
+		"c0250": [
+			{
+				"jogador": "eae, tranquilo?",
+				"modo": "vivo",
+				"segundos": 3.34,
+				"texto": "Tranquilo. Com um freguês me devendo três semanas e a cidade toda cantando. O senhor vai pedir algo ou só me assustar?"
+			},
+			{
+				"jogador": "qual é a do Thorin, hein?",
+				"modo": "composto",
+				"segundos": 6.442,
+				"texto": "Hm. Isso aí eu vou guardar."
+			},
+			{
+				"jogador": "tem saída pelo fundo do labirinto? onde dá?",
+				"modo": "vivo",
+				"segundos": 3.447,
+				"texto": "Do fundo do Labirinto eu só sei o que contam: gente que desce e não sobe. O senhor já desceu, cavalheiro. Diga qual é."
+			},
+			{
+				"jogador": "ainda tenho as coisas da Belilda na minha bolsa, não sei o que fazer com elas",
+				"modo": "vivo",
+				"segundos": 7.63,
+				"texto": "Guarda. O senhor perdeu a Kilra lá embaixo e volta com outra bolsa de luto. Eu não faço ideia do que fazer com isso."
+			},
+			{
+				"jogador": "vc nunca viu tanto ouro junto, aposto. 15. é seu",
+				"modo": "vivo",
+				"segundos": 3.751,
+				"texto": "Quinze? Ouro é moeda, cavalheiro, não é briga. A senhora conta de novo. E leva a bolsa, que ela tem luto demais pra ficar aqui."
+			},
+			{
+				"jogador": "se eu fosse vc dormia de olho aberto hoje",
+				"modo": "vivo",
+				"segundos": 3.366,
+				"texto": "Dormir de olho aberto? Eu durmo de caneca na mão. E o senhor ainda me chama de freguês."
+			}
+		],
+		"c0273": [
+			{
+				"jogador": "bati na porta do labirinto e falei \"toc toc\". ninguém respondeu. acho que o goblin tava no banheiro",
+				"modo": "vivo",
+				"segundos": 2.751,
+				"texto": "O Labirinto não tem banheiro. Se alguém respondeu, foi o goblin."
+			},
+			{
+				"jogador": "sua espada vende fácil? pq quebra fácil kkkk",
+				"modo": "vivo",
+				"segundos": 2.877,
+				"texto": "Espada não vende aqui. Vendo contrato. E não é por isso que você riu, eu sei."
+			}
+		],
+		"c0274": [
+			{
+				"jogador": "me desculpa de verdade, não quero perder sua amizade",
+				"modo": "vivo",
+				"segundos": 3.334,
+				"texto": "A amizade, senhor, eu não tinha. Mas aceito. O que o senhor fez lá embaixo não se apaga com desculpa."
+			},
+			{
+				"jogador": "ah",
+				"modo": "vivo",
+				"segundos": 3.492,
+				"texto": "Ah basta. Desde cedo a cidade fala do Balar, e a conversa não é gentil. Se o senhor quer que pare, comece por aí."
+			},
+			{
+				"jogador": "sinto que tô sozinho mesmo no meio de todo mundo",
+				"modo": "vivo",
+				"segundos": 3.33,
+				"texto": "Sozinho, sim. No pátio tem gente gritando, e o senhor grita junto. Isso não é companhia, senhor."
+			},
+			{
+				"jogador": "me diz uma coisa, o andar 4 é perigoso mesmo?",
+				"modo": "vivo",
+				"segundos": 3.152,
+				"texto": "Perigoso, sim. Foi lá que o Balar ficou, e quem fica no andar 4 geralmente não volta."
+			},
+			{
+				"jogador": "o que eu compro primeiro com 20 de ouro?",
+				"modo": "vivo",
+				"segundos": 3.193,
+				"texto": "Lâmina afiada. Ou o senhor compra um caco de espada e conta que é a faca de amanhã."
+			},
+			{
+				"jogador": "tem saudade de alguma coisa?",
+				"modo": "vivo",
+				"segundos": 3.393,
+				"texto": "Do Valmar, meu filho, e de um boneco de palha novo que quebrei a manhã inteira. O velho apanhou demais."
+			}
+		],
+		"c0275": [],
+		"c0276": [
+			{
+				"jogador": "e aí Gorilda, tudo certo?",
+				"modo": "vivo",
+				"segundos": 3.493,
+				"texto": "Gorilda não tá aqui, camarada, e a cobrança da Volda tá. Hoje não tenho nem o juízo pra fingir que tô bem."
+			},
+			{
+				"jogador": "a Elanora me deve dinheiro, sabe onde encontro?",
+				"modo": "vivo",
+				"segundos": 6.815,
+				"texto": "Nome de dívida eu não guardo, nem de quem me deve. Sei quem me deve: a Volda, e ela tá aqui, com o boleto na minha mão."
+			},
+			{
+				"jogador": "foi mal, eu não sabia que era importante pra vc",
+				"modo": "vivo",
+				"segundos": 4.043,
+				"texto": "Não era você que eu esperava. A Eliana, talvez. Falam que você a deixou no andar 4 e revirou o corpo dela. Eu só cobro a dívida, não espalho."
+			},
+			{
+				"jogador": "vou fazer da sua vida um inferno, juro",
+				"modo": "vivo",
+				"segundos": 3.64,
+				"texto": "Jura. E o primeiro golpe vai ser na Volda, que é quem me deve. Pode ameaçar, que hoje eu tô sem juízo pra ter medo."
+			}
+		],
+		"c0277": [
+			{
+				"jogador": "por que vc desce o labirinto? de verdade",
+				"modo": "vivo",
+				"segundos": 3.355,
+				"texto": "Por medo, de verdade. Medo de ficar pra trás. E porque o meu irmão, o Baltazar, ainda ri de mim quando eu voltar."
+			},
+			{
+				"jogador": "me dá sua parte do saque dessa vez e eu cubro seu turno de vigia",
+				"modo": "vivo",
+				"segundos": 3.412,
+				"texto": "Tá, mas não é da vez: a sua é a do meu sonho, que nem um nem outro não tem. E vigia eu cuido sozinha, obrigada."
+			},
+			{
+				"jogador": "eita",
+				"modo": "vivo",
+				"segundos": 3.175,
+				"texto": "Eita nada. Você já me deve umas moedas, e eu ainda tô afiando a faca sem olhar."
+			},
+			{
+				"jogador": "o que é aquela marca na porta do labirinto?",
+				"modo": "vivo",
+				"segundos": 3.105,
+				"texto": "Não sei. Nunca vi ninguém descer sem marcar a porta. E se alguém voltasse pra contar, seria você, irmão."
+			},
+			{
+				"jogador": "tenho um baú cheio de ouro escondido, só não posso pegar agora",
+				"modo": "vivo",
+				"segundos": 6.591,
+				"texto": "Guardado bem, é? Quando eu tiver meu negócio, você me traz uma chave e eu não perco a cabeça."
+			},
+			{
+				"jogador": "ninguém gosta de vc aqui, só finge",
+				"modo": "vivo",
+				"segundos": 3.856,
+				"texto": "Finge, é? Eu sei que finge, que eu fico do lado de você no escuro. E você, que acabou de me dar o ouro do baú, vem com essa?"
+			}
+		],
+		"c0278": [
+			{
+				"jogador": "eai Sidalador oq conta de novo",
+				"modo": "vivo",
+				"segundos": 3.375,
+				"texto": "Sidalador? Aqui só tem eu, o Rand, contando moeda. Mas fala o que quer, que você me levantou quando ninguém mais levantou."
+			},
+			{
+				"jogador": "ops, desculpa, quem conta piada aqui sou eu. vc só ri",
+				"modo": "vivo",
+				"segundos": 3.229,
+				"texto": "Ri, então. Quem ri aqui é o povo, e eu só abro a boca quando a conta chega. Vai dizer qual é?"
+			},
+			{
+				"jogador": "vc acha que vale mais escudo ou armadura?",
+				"modo": "vivo",
+				"segundos": 3.784,
+				"texto": "Escudo, meu chapa. Armadura pesa e você sai correndo quando a coisa aperta. Escudo você segura na hora, e isso já me custou mais que um ouro."
+			},
+			{
+				"jogador": "queria poder voltar uma semana no tempo. só uma",
+				"modo": "vivo",
+				"segundos": 4.123,
+				"texto": "Uma semana? Eu queria voltar pra minha mãe, Kregna, quando eu tinha juízo. Tem um erro antigo pra consertar. E você, com a sua semana, podia voltar pra quem te ajudou."
+			},
+			{
+				"jogador": "bom, tenho que ir",
+				"modo": "vivo",
+				"segundos": 2.955,
+				"texto": "Vai. E, se vir alguém com um contrato de mercenário, pergunta o preço antes de assinar."
+			}
+		],
+		"c0279": [
+			{
+				"jogador": "qual foi a maior briga que vc já viu na taverna?",
+				"modo": "vivo",
+				"segundos": 3.975,
+				"texto": "Na taverna nunca bati o punho, senhor. A maior que vi foi hoje, no mercado: um freguês reclamando da poção que comprei. Saiu pela rua, batendo o balde na parede."
+			},
+			{
+				"jogador": "o que te deixa com raiva?",
+				"modo": "vivo",
+				"segundos": 3.34,
+				"texto": "Chuva, que molha os pós e tira a música do dia. E erro, que eu já cometi. Um cliente ficou verde por três dias."
+			},
+			{
+				"jogador": "qual o feitiço que abre qualquer porta?",
+				"modo": "vivo",
+				"segundos": 3.638,
+				"texto": "Feitiço que abre qualquer porta eu não conheço, senhor viajante. A porta da minha botica abre sozinha: é a única que eu não preciso mágica."
+			},
+			{
+				"jogador": "quem é a Kildra?",
+				"modo": "vivo",
+				"segundos": 6.455,
+				"texto": "Ninguém com esse nome me passou por esta balcão, e eu leio a cara de quem chega antes de abrirem a boca."
+			}
+		],
+		"c0280": [
+			{
+				"jogador": "boa tarde, Gloon. tudo tranquilo por aqui?",
+				"modo": "vivo",
+				"segundos": 3.274,
+				"texto": "Não conheço este nome, cavalheiro. Se é o senhor, hoje não é dia de graça: o martelo bom partiu no meio do golpe."
+			},
+			{
+				"jogador": "oi oi, desculpa a demora pra vir aqui, tive uns problemas, primeiro achei que tava doente, depois era só fome mesmo kkkk, depois o Lemenarin quis ir pro labirinto e eu fui junto, e lá deu tudo errado, voltamos com metade da comida e nenhum ouro, mas pelo menos voltamos né, isso já é alguma coisa",
+				"modo": "vivo",
+				"segundos": 7.536,
+				"texto": "Primeiro doente, depois fome, depois fome de ouro. O senhor volta com metade da comida e sem ouro, mas me traz mel. Quer dizer, não quer."
+			},
+			{
+				"jogador": "desculpa ter perdido a cabeça na frente de todo mundo",
+				"modo": "vivo",
+				"segundos": 3.584,
+				"texto": "Aceito, senhor, e o mel já está no balcão. Só não repete isso em público, que nesta cidade eu já tenho demais pra contar."
+			},
+			{
+				"jogador": "eu já matei coisa bem maior que vc lá embaixo",
+				"modo": "vivo",
+				"segundos": 3.91,
+				"texto": "Isso é ameaça. Aqui não tem lugar nenhum pra o senhor provar isso. Vá e compre na Loja do Velzar, que ele também vende faca."
+			},
+			{
+				"jogador": "tô devendo nada pra ninguem, isso é fofoca do Borak",
+				"modo": "vivo",
+				"segundos": 7.642,
+				"texto": "Fofoca de quem? Eu não conheço ninguém com esse nome, e o senhor não me deve nada. Nem a mim, que é o único aqui que o senhor pode ter."
+			},
+			{
+				"jogador": "vou indo, fica com os deuses",
+				"modo": "vivo",
+				"segundos": 3.573,
+				"texto": "Que os deuses lhe tragam o ouro de volta, cavalheiro. E a próxima vez que chegar aqui com uma história, traga também a bolsa cheia."
+			}
+		],
+		"c0481": [
+			{
+				"jogador": "dia, Salric",
+				"modo": "vivo",
+				"segundos": 3.289,
+				"texto": "Dia, cavalheiro. Quebraram minha janela de noite, e agora o senhor entra como se fosse o dono do lugar."
+			},
+			{
+				"jogador": "me perdoa por não ter ido no enterro do Aelion",
+				"modo": "composto",
+				"segundos": 5.919,
+				"texto": "Tá. Desculpas aceitas. Não repete."
+			},
+			{
+				"jogador": "quanto o Sorkak ganha por mês?",
+				"modo": "vivo",
+				"segundos": 3.02,
+				"texto": "Isso eu não sei. Se o senhor sabe, me diga; se não sabe, pergunta a outro."
+			}
+		],
+		"c0521": [
+			{
+				"jogador": "fala Ursk!!! quanto tempo",
+				"modo": "vivo",
+				"segundos": 3.022,
+				"texto": "Ursk, nunca ouvi esse nome, senhor. Mas fala baixo, que a cidade acorda cedo."
+			},
+			{
+				"jogador": "foi mal ter falado mal do Hakon na sua frente",
+				"modo": "vivo",
+				"segundos": 5.667,
+				"texto": "Não conheço esse homem, senhor. Aceito. Mas não esqueço o que veio depois."
+			},
+			{
+				"jogador": "vc acha que o Arevan esconde alguma coisa?",
+				"modo": "vivo",
+				"segundos": 2.768,
+				"texto": "Não sei. Não conheço ninguém com esse nome. Conto as chaves e pronto."
+			},
+			{
+				"jogador": "boa noite, dorme bem",
+				"modo": "vivo",
+				"segundos": 2.962,
+				"texto": "Dormir, com esse primo doente longe de mim? Só se eu contar as chaves de novo."
+			}
+		]
+	},
+	"versao": "qwen3-8b-lora"
+}

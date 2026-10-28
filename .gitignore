@@ -1,0 +1,6 @@
+*.safetensors
+*.gguf
+*.bin
+work/
+__pycache__/
+hf-upload/
