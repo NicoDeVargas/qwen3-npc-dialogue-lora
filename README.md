@@ -77,7 +77,7 @@ hf/README.md     model card for the Hugging Face upload
 
 ## Run it
 
-The adapter weights (PEFT safetensors and an f16 GGUF for llama.cpp) are not stored in this repository; [`hf/README.md`](hf/README.md) is their model card.
+Adapter on Hugging Face: [NicoDeVargas/qwen3-8b-npc-dialogue-lora](https://huggingface.co/NicoDeVargas/qwen3-8b-npc-dialogue-lora) (PEFT safetensors and an f16 GGUF for llama.cpp).
 
 With llama.cpp (expected 1 to 2 s per reply on an RTX 2060 Super; 30 to 45 s on CPU):
 

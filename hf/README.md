@@ -42,7 +42,7 @@ from peft import PeftModel
 
 tok = AutoTokenizer.from_pretrained("Qwen/Qwen3-8B")
 model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-8B", dtype="bfloat16", device_map="auto")
-model = PeftModel.from_pretrained(model, "HF_USER/qwen3-8b-npc-dialogue-lora")
+model = PeftModel.from_pretrained(model, "NicoDeVargas/qwen3-8b-npc-dialogue-lora")
 ```
 
 Use the Qwen3 chat template with `enable_thinking=False`.
